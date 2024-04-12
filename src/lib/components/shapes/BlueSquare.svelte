@@ -1,4 +1,4 @@
-<div class="wrapper">
+<div class="wrapper overflow-clip">
 	<svg
 		width="429"
 		height="168"
@@ -11,4 +11,8 @@
 	</svg>
 </div>
 
-<style></style>
+<style>
+	.wrapper {
+		width: 30vw;
+	}
+</style>
