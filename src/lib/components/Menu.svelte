@@ -3,7 +3,7 @@
 		{ name: 'Home', route: '/' },
 		{ name: 'Projects', route: '/projects' },
 		{ name: 'About', route: '/about' },
-		{ name: 'Contact', route: '/contact' }
+		{ name: 'Contact', route: '/about' }
 	];
 </script>
 
