@@ -8,7 +8,10 @@ const config = {
         },
         extend: {
             colors: {
-                funpink: {}
+                funpink: '#F488BA',
+                crazyorange: '#FF9900',
+                groovyblue: '#3A33A4'
+
             }
         }
     },
