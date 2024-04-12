@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Wrapper from '$lib/components/Wrapper.svelte';
 	import Image from 'svimg/Image.svelte';
+	import SkribbleButton from '$lib/components/SkribbleButton.svelte';
 
 	export let year = '2022';
 	export let title = 'Infographic Design';
@@ -21,6 +22,7 @@
 					iure minima necessitatibus nulla officia optio porro reiciendis rerum soluta, vel velit
 					voluptas. A asperiores laborum nesciunt.
 				</p>
+				<SkribbleButton></SkribbleButton>
 			</div>
 			<Image src="/imgs/info-graphic.png" alt="infographic poster" class="min-w-20 basis-1/4" />
 		</div>
