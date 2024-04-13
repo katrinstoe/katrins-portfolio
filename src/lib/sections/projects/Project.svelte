@@ -25,7 +25,7 @@
 		<p class="pb-10 text-4xl">{year}</p>
 		<div class="flex flex-wrap justify-center gap-12">
 			<div class="grow basis-2/4">
-				<h2 class=" pb-10 text-7xl font-bold">{title}</h2>
+				<h2 class=" pb-10 text-3xl font-bold md:text-7xl">{title}</h2>
 				<p>
 					{description}
 				</p>

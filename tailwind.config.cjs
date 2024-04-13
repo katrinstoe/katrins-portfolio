@@ -10,8 +10,8 @@ const config = {
             colors: {
                 funpink: '#F488BA',
                 crazyorange: '#FF9900',
-                groovyblue: '#3A33A4'
-
+                groovyblue: '#3A33A4',
+                slaywhite: "#fff"
             }
         }
     },
