@@ -7,21 +7,21 @@
 </script>
 
 <div class="block w-full grow text-black sm:hidden">
-	<div class=" flex justify-end">
+	<div class="flex justify-end">
 		<button
 			on:click={() => {
 				showMobileMenu = true;
 			}}
-			class="flex flex-col gap-2"
+			class="flex flex-col gap-1.5 p-2"
 		>
 			{#each { length: 3 } as _, idx}
-				<div class="h-1 w-8 rounded-sm bg-black"></div>
+				<div class="h-1 w-7 rounded-sm bg-black"></div>
 			{/each}
 		</button>
 	</div>
 	{#if showMobileMenu}
 		<div
-			class="bg-slaywhite/90 absolute bottom-0 left-0 top-0 z-50 h-screen w-screen backdrop-blur"
+			class="absolute bottom-0 left-0 top-0 z-50 h-screen w-screen bg-slaywhite/90 backdrop-blur"
 			transition:fly={{ y: -400, easing: cubicInOut, duration: 600 }}
 		>
 			<div class="grid h-full w-full place-content-center">
