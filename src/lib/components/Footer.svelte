@@ -11,11 +11,25 @@
 		<div class="grid grid-cols-1 justify-between gap-4 md:grid-cols-5">
 			<div class="col-span-3 md:col-start-2">
 				<p class="text-center">Contact?</p>
-				<p class="text-center">katrinstoetter1@gmai.com</p>
+				<p class="text-center">
+					<a
+						href="mailto:katrin.stoetter1@gmail.com"
+						aria-label="External Email Link for katrin(dot)stoetter1@gmail(dot)com"
+						>katrin.stoetter1@gmail.com</a
+					>
+				</p>
 			</div>
 			<div class="col-span-1 flex justify-center gap-4 md:justify-end">
-				<IconGithub class="w-12" />
-				<IconLinkedIn class="w-12" />
+				<a href="https://github.com/katrinstoe" target="_blank" aria-label="Github external Link">
+					<IconGithub class="w-12" />
+				</a>
+				<a
+					href="https://www.linkedin.com/in/katrin-stoetter/"
+					target="_blank"
+					aria-label="LinkedIn external Link"
+				>
+					<IconLinkedIn class="w-12" />
+				</a>
 			</div>
 		</div>
 	</Wrapper>

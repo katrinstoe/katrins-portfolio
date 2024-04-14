@@ -11,10 +11,24 @@
 	<div class="flex flex-col justify-center px-[10vw]">
 		<SectionHeader>Contact</SectionHeader>
 		<div class="flex flex-col">
-			<div class="email pb-2 text-xl font-bold">katrin.stoetter1@gmail.com</div>
+			<div class="email pb-2 text-xl font-bold">
+				<a
+					href="mailto:katrin.stoetter1@gmail.com"
+					aria-label="External Email Link for katrin(dot)stoetter1@gmail(dot)com"
+					>katrin.stoetter1@gmail.com</a
+				>
+			</div>
 			<div class="icons col-span-1 flex gap-4 md:justify-start">
-				<IconGithub class="w-10" />
-				<IconLinkedIn class="w-10" />
+				<a href="https://github.com/katrinstoe" target="_blank" aria-label="Github external Link">
+					<IconGithub class="w-10" />
+				</a>
+				<a
+					href="https://www.linkedin.com/in/katrin-stoetter/"
+					target="_blank"
+					aria-label="LinkedIn external Link"
+				>
+					<IconLinkedIn class="w-10" />
+				</a>
 			</div>
 		</div>
 	</div>
