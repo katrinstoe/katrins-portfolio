@@ -2,6 +2,7 @@
 	import { cubicInOut } from 'svelte/easing';
 	import { fly } from 'svelte/transition';
 	import type { MenuItem } from '$lib/components/menu/MenuItem';
+	import CloseIcon from '$lib/components/icons/CloseIcon.svelte';
 
 	export let items: MenuItem[] = [];
 	let showMobileMenu = false;
@@ -40,12 +41,12 @@
 					{/each}
 				</ul>
 				<button
-					class="flex justify-center pt-5 text-2xl font-bold"
+					class="flex justify-center pt-6 text-2xl font-bold"
 					on:click={() => {
 						showMobileMenu = false;
 					}}
 				>
-					<img class="close-btn w-[12vw]" src="close-icon.png" alt="close button" />
+					<CloseIcon class="text-black" />
 				</button>
 			</div>
 		</div>
