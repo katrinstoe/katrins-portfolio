@@ -3,7 +3,7 @@
 </script>
 
 <header class="fixed z-20 h-12 w-full">
-	<div class="flex px-12 py-4">
+	<div class="flex px-4 py-4 sm:px-12">
 		<h1 class="shrink-0 text-3xl font-bold text-white">KS</h1>
 		<div class="grow">
 			<Menu />
