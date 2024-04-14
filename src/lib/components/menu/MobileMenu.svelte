@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { cubicInOut } from 'svelte/easing';
 	import { fly } from 'svelte/transition';
+	import type { MenuItem } from '$lib/components/menu/MenuItem';
 
 	export let items: MenuItem[] = [];
 	let showMobileMenu = false;

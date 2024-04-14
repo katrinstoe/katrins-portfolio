@@ -6,11 +6,11 @@
 </script>
 
 <div class=" flex flex-wrap items-center justify-center gap-12">
-	<div class="basis-56">
-		<Image src="/imgs/katrin-bild.png" immediate={true} />
+	<div class="sm:basis-56 basis-36">
+		<Image src="/imgs/katrin-bild.png" immediate={true} class="mx-auto" />
 	</div>
-	<div class="basis-96 text-xl">
-		<p>{@html introText}</p>
+	<div class="basis-96">
+		<p class="text-xl">{@html introText}</p>
 		<DownLoadCVButton />
 	</div>
 </div>
