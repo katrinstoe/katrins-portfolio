@@ -27,15 +27,24 @@
 			<div class="grid h-full w-full place-content-center">
 				<ul class="flex flex-col gap-8">
 					{#each items as item}
-						<a href={item.route} class=" text-center text-2xl"> {item.name}</a>
+						<a
+							href={item.route}
+							on:click={() => {
+								showMobileMenu = false;
+							}}
+							class=" text-center text-2xl"
+						>
+							{item.name}</a
+						>
 					{/each}
 				</ul>
 				<button
-					class="pt-8 text-2xl font-bold"
+					class="flex justify-center pt-5 text-2xl font-bold"
 					on:click={() => {
 						showMobileMenu = false;
 					}}
-					>X
+				>
+					<img class="close-btn w-[12vw]" src="close-icon.png" alt="close button" />
 				</button>
 			</div>
 		</div>
