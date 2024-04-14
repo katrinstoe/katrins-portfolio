@@ -9,9 +9,12 @@
 	<Wrapper>
 		<SectionHeader>Latest Projects</SectionHeader>
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, aperiam consequuntur corporis
-			doloremque ex exercitationem fuga id, mollitia, quae quaerat quis quisquam recusandae
-			reiciendis ut veniam vero voluptas voluptatem voluptatum.
+			The project section contains a collection of projects that I have completed during my studies
+			at university. These projects cover a wide range of fields, including usability, programming,
+			and design. In this section, you can find examples of my work and see how I have applied my
+			skills and knowledge to tackle a variety of challenges. Whether you are looking for
+			inspiration, or just want to learn more about my experiences as a university student, the
+			project section has something for everyone. So be sure to check it out!
 		</p>
 	</Wrapper>
 	<InfoGraphic />
