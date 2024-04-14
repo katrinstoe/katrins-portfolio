@@ -1,7 +1,6 @@
 <script lang="ts">
 	import ContactHeroShapes from '$lib/components/shapes/ContactHeroShapes.svelte';
 	import SectionHeader from '$lib/components/SectionHeader.svelte';
-	import Wrapper from '$lib/components/Wrapper.svelte';
 	import IconGithub from '$lib/components/icons/IconGithub.svelte';
 	import IconLinkedIn from '$lib/components/icons/IconLinkedIn.svelte';
 </script>
