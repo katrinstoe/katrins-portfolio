@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<h2 class="heading">
+<h2 class="heading py-4">
 	<slot>Section Title Slot</slot>
 </h2>
 

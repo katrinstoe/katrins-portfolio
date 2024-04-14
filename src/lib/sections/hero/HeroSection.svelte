@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Image from 'svimg/Image.svelte';
 	import HeroShapes from '$lib/components/shapes/HeroShapes.svelte';
 	import Introduction from '$lib/sections/hero/Introduction.svelte';
 

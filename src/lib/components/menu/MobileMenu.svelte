@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { cubicInOut } from 'svelte/easing';
 	import { fly } from 'svelte/transition';
+	import type { MenuItem } from '$lib/components/menu/MenuItem';
 
 	export let items: MenuItem[] = [];
 	let showMobileMenu = false;
@@ -21,13 +22,21 @@
 	</div>
 	{#if showMobileMenu}
 		<div
-			class="bg-slaywhite/90 absolute bottom-0 left-0 top-0 z-50 h-screen w-screen backdrop-blur"
+			class="absolute bottom-0 left-0 top-0 z-50 h-screen w-screen bg-slaywhite/90 backdrop-blur"
 			transition:fly={{ y: -400, easing: cubicInOut, duration: 600 }}
 		>
 			<div class="grid h-full w-full place-content-center">
 				<ul class="flex flex-col gap-8">
 					{#each items as item}
-						<a href={item.route} class=" text-center text-2xl"> {item.name}</a>
+						<a
+							href={item.route}
+							on:click={() => {
+								showMobileMenu = false;
+							}}
+							class=" text-center text-2xl"
+						>
+							{item.name}</a
+						>
 					{/each}
 				</ul>
 				<button
