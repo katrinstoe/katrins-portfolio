@@ -7,7 +7,7 @@
 
 <div class=" flex flex-wrap items-center justify-center gap-12">
 	<div class="basis-56">
-		<Image src="/imgs/katrin-bild.png" />
+		<Image src="/imgs/katrin-bild.png" immediate={true} />
 	</div>
 	<div class="basis-96 text-xl">
 		<p>{@html introText}</p>
