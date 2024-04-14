@@ -11,8 +11,12 @@
 
 <nav>
 	<MobileMenu {items} />
+	<!--px-16 py-4  sm:rounded-lg sm:bg-white sm:bg-opacity-50-->
 	<div class="hidden justify-center sm:flex">
-		<ul class="flex text-xl" style="gap: clamp(2rem, 6vw, 4rem)">
+		<ul
+			class="flex px-16 py-4 text-xl sm:rounded-lg sm:bg-white sm:bg-opacity-60"
+			style="gap: clamp(2rem, 6vw, 4rem)"
+		>
 			{#each items as item}
 				<a
 					href={item.route}
