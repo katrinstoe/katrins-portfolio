@@ -8,15 +8,15 @@
 </script>
 
 <div class="block w-full grow text-black sm:hidden">
-	<div class=" flex justify-end">
+	<div class="flex justify-end">
 		<button
 			on:click={() => {
 				showMobileMenu = true;
 			}}
-			class="flex flex-col gap-2"
+			class="flex flex-col gap-1.5 p-2"
 		>
 			{#each { length: 3 } as _, idx}
-				<div class="h-1 w-8 rounded-sm bg-black"></div>
+				<div class="h-1 w-7 rounded-sm bg-black"></div>
 			{/each}
 		</button>
 	</div>
@@ -40,11 +40,12 @@
 					{/each}
 				</ul>
 				<button
-					class="pt-8 text-2xl font-bold"
+					class="flex justify-center pt-5 text-2xl font-bold"
 					on:click={() => {
 						showMobileMenu = false;
 					}}
-					>X
+				>
+					<img class="close-btn w-[12vw]" src="close-icon.png" alt="close button" />
 				</button>
 			</div>
 		</div>
