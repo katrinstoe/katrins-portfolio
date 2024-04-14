@@ -11,7 +11,7 @@
 		<div class="grid grid-cols-1 justify-between gap-4 md:grid-cols-5">
 			<div class="col-span-3 md:col-start-2">
 				<p class="text-center">Contact?</p>
-				<p class="text-center">katrinstoetter1@gmai.com</p>
+				<p class="text-center">katrinstoetter1@gmail.com</p>
 			</div>
 			<div class="col-span-1 flex justify-center gap-4 md:justify-end">
 				<IconGithub class="w-12" />
