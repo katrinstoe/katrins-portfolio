@@ -11,7 +11,6 @@
   Whether you are looking for inspiration, or just want to learn more about my experiences as a
   university student, the project section has something for everyone. So be sure to check it
   out!`;
-	const sectionHeader = 'UX Research Projects';
 </script>
 
 <ProjectOverviewLayout {sectionTitle} {sectionDescription}>
