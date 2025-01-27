@@ -10,5 +10,5 @@
 	year="2022"
 	buttonText="Design process"
 >
-	<Image src="imgs/forgetmenot.png" alt="forgetmenot box" />
+	<Image src="/imgs/forgetmenot.png" alt="forgetmenot box" />
 </Project>

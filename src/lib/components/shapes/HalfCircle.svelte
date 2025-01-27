@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let rotate = '';
+	export let rotate: number = 0;
 </script>
 
 <div class="h-[10vw] overflow-y-clip">
