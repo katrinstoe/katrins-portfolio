@@ -34,7 +34,7 @@
 							<div
 								class="grow bg-crazyorange/90 p-6 backdrop-blur xs:grow-0 xs:basis-3/4 sm:basis-2/3 sm:p-8"
 							>
-								<SubsectionHeader>Info</SubsectionHeader>
+								<h2 class="mb-4 text-4xl font-bold">{sectionTitle}</h2>
 								<p>
 									Duration: {duration} <br />
 									Contributors: {contributors} <br />
