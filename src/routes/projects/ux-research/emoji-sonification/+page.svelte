@@ -1,7 +1,5 @@
 <script>
 	import DetailProjectLayout from '$lib/sections/projects/DetailProjectPages/DetailProjectLayout.svelte';
-	import Wrapper from '$lib/components/Wrapper.svelte';
-	import Video from '$lib/components/Video.svelte';
 	import SubsectionHeader from '$lib/components/SubsectionHeader.svelte';
 	import ProjectSectionWrapper from '$lib/components/ProjectSectionWrapper.svelte';
 	import UnorderedList from '$lib/components/shapes/UnorderedList.svelte';
