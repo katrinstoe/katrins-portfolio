@@ -1,11 +1,15 @@
 <script lang="ts">
 	export let items: string[]; // Expecting an array of strings
+	export let headings: string[] | undefined = undefined; // Optional array of headings
 </script>
 
 <ul>
-	{#each items as item}
+	{#each items as item, index}
 		<li>
-			{item}
+			{#if headings && headings[index]}
+				<strong>{headings[index]}</strong>
+			{/if}
+			{@html item}
 		</li>
 	{/each}
 </ul>

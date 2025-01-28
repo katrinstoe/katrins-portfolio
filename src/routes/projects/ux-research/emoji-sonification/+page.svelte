@@ -9,23 +9,38 @@
 	let items = [
 		'Designing and implementing a prototype for emotion sonification.',
 		'Conducting iterative user research with participants who are blind, visually impaired, or sighted.',
-		'Evaluated recognition accuracy, confidence, and user preferences through **quantitative and qualitative methods**.',
+		'Evaluated recognition accuracy, confidence, and user preferences through quantitative and qualitative methods.',
 		'Analyzed results using statistical tests (e.g., ANOVA).'
 	];
 
 	let itemsMethod = [
-		'Research and Literature Review: Studied existing accessibility challenges in emoji usage and human voice-based emotion recognition.',
-		'Prototyping: Developed sonified versions of emojis using validated emotion categories (Cowen et al.) and tested them with diverse participants during pre-tests.',
-		'Developed own Research Tool (BUES): During the pre-tests, I also found that no research tool was adequately accessible for my purpose of navigating independently and listening to audio files. Therefore I developed my own accessible research tool called BUES (Barrierefreies Umfragetool für Emoji Sonifizierung), which uses SvelteKit, a PostgressSQL-Database and client-side RSA encryption to ensure anonymity. The tool was expanded from the open-source survey tool developed by Jacob Heim called AISS (Audio-Image-Schema Surveys) (link).',
-		'User Testing: I conducted a quantitative online study with 46 participants, including both blind/visually impaired (n=27) and sighted individuals (n=19). Participants evaluated seven sonified emotion categories (e.g., anger, amusement, sadness) in four conditions: Vocal bursts only, Prosody only, Prosody + vocal bursts, and Screen reader + vocal bursts. The study measured Recognition Accuracy, Confidence, Speed, and Preference.',
-		'Data Analysis: Applied statistical methods to compare the effectiveness of different sonification approaches. For this part, I used JASP to calculate the statistics and Pandas to retrieve the data from the database and format it correctly.'
+		'Studied existing accessibility challenges in emoji usage and human voice-based emotion recognition.',
+		'Developed sonified versions of emojis using validated emotion categories (Cowen et al.) and tested them with diverse participants during pre-tests.',
+		'During the pre-tests, I also found that no research tool was adequately accessible for my purpose of navigating independently and listening to audio files. Therefore I developed my own accessible research tool called BUES (Barrierefreies Umfragetool für Emoji Sonifizierung), which uses SvelteKit, a PostgressSQL-Database and client-side RSA encryption to ensure anonymity. The tool was expanded from the open-source survey tool developed by Jacob Heim called AISS (Audio-Image-Schema Surveys) (link).',
+		'I conducted a quantitative online study with 46 participants, including both blind/visually impaired (n=27) and sighted individuals (n=19). Participants evaluated seven sonified emotion categories (e.g., anger, amusement, sadness) in four conditions: Vocal bursts only, Prosody only, Prosody + vocal bursts, and Screen reader + vocal bursts. The study measured Recognition Accuracy, Confidence, Speed, and Preference.',
+		'Applied statistical methods to compare the effectiveness of different sonification approaches. For this part, I used JASP to calculate the statistics and Pandas to retrieve the data from the database and format it correctly.'
+	];
+
+	let itemsMethodHeadings = [
+		'Research and Literature Review: ',
+		'Prototyping: ',
+		'Developed own Research Tool (BUES): ',
+		'User Testing: ',
+		'Data Analysis :'
 	];
 
 	let itemsTools = [
-		'Development: Custom survey tool designed for accessibility (BUES).',
-		'Audio Processing: Hume.ai for validating emotion-specific vocalizations.',
-		'Analysis: G*Power for sample size calculation, ANOVA for statistical evaluation.',
-		'Survey Hosting: Typeform for conducting pilot studies and main surveys.'
+		'Custom survey tool designed for accessibility (BUES).',
+		'Hume.ai for validating emotion-specific vocalizations.',
+		'G*Power for sample size calculation, ANOVA for statistical evaluation.',
+		'Typeform for conducting pilot studies and main surveys.'
+	];
+
+	let itemsToolsHeadings = [
+		'Development: ',
+		'Audio Processing: ',
+		'Analysis: ',
+		'Survey Hosting: '
 	];
 
 	let itemsInsights = [
@@ -36,10 +51,17 @@
 	];
 
 	let itemsTakeaways = [
-		'Strengths: Prototyping, accessibility-focused design, user testing, and statistical analysis.',
-		'Methods Mastered: Literature review, pilot studies, quantitative and qualitative research.',
-		'Tools Utilized: Accessible survey design, advanced audio tools, and statistical software.',
-		'Future Opportunities: Applying sonification to other non-visual communication contexts.'
+		'Prototyping, accessibility-focused design, user testing, and statistical analysis.',
+		'Literature review, pilot studies, quantitative and qualitative research.',
+		'Accessible survey design, advanced audio tools, and statistical software.',
+		'Applying sonification to other non-visual communication contexts.'
+	];
+
+	let itemsTakeawaysHeadings = [
+		'Strengths: ',
+		'Methods Mastered: ',
+		'Tools Utilized: ',
+		'Future Opportunities: '
 	];
 </script>
 
@@ -76,7 +98,7 @@
 	</ProjectSectionWrapper>
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Methods</SubsectionHeader>
-		<OrderedList items={itemsMethod}></OrderedList>
+		<OrderedList items={itemsMethod} headings={itemsMethodHeadings}></OrderedList>
 		<Image
 			src="/imgs/Projects/EmojiSonification/emojiTable.jpg"
 			alt="Emoji Sonification Table - which Emoji to which Sound"
@@ -90,7 +112,7 @@
 	</ProjectSectionWrapper>
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Key Learnings and Insights</SubsectionHeader>
-		<OrderedList items={itemsInsights}></OrderedList>
+		<OrderedList items={itemsInsights} headings={itemsToolsHeadings}></OrderedList>
 	</ProjectSectionWrapper>
 
 	<ProjectSectionWrapper>
@@ -105,6 +127,6 @@
 
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Key Takeaways</SubsectionHeader>
-		<UnorderedList items={itemsTakeaways}></UnorderedList>
+		<UnorderedList items={itemsTakeaways} headings={itemsTakeawaysHeadings}></UnorderedList>
 	</ProjectSectionWrapper>
 </DetailProjectLayout>
