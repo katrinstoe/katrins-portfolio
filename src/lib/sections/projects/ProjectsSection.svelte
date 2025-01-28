@@ -3,6 +3,9 @@
 	import InfoGraphic from '$lib/sections/projects/InfoGraphic.svelte';
 	import ForgetMeNotProject from '$lib/sections/projects/ForgetMeNotProject.svelte';
 	import SectionHeader from '$lib/components/SectionHeader.svelte';
+	import ETextile from '$lib/sections/projects/ETextile.svelte';
+	import OrganLocator from '$lib/sections/projects/OrganLocator.svelte';
+	import EmojiSonification from '$lib/sections/projects/EmojiSonification.svelte';
 </script>
 
 <section class="pt-12">
@@ -17,6 +20,7 @@
 			project section has something for everyone. So be sure to check it out!
 		</p>
 	</Wrapper>
-	<InfoGraphic />
-	<ForgetMeNotProject />
+	<OrganLocator />
+	<ETextile />
+	<EmojiSonification />
 </section>

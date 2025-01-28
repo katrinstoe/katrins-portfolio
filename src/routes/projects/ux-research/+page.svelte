@@ -2,6 +2,10 @@
 	import ProjectOverviewLayout from '$lib/components/ProjectOverviewLayout.svelte';
 	import InfoGraphic from '$lib/sections/projects/InfoGraphic.svelte';
 	import ForgetMeNotProject from '$lib/sections/projects/ForgetMeNotProject.svelte';
+	import ETextile from '$lib/sections/projects/ETextile.svelte';
+	import EmojiSonification from '$lib/sections/projects/EmojiSonification.svelte';
+	import ExpoCompanion from '$lib/sections/projects/ExpoCompanion.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 
 	const sectionTitle = 'UX Research Projects';
 	const sectionDescription = `EXCHANGE THIS TEXT: The project section contains a collection of projects that I have
@@ -14,6 +18,8 @@
 </script>
 
 <ProjectOverviewLayout {sectionTitle} {sectionDescription}>
-	<InfoGraphic />
-	<ForgetMeNotProject />
+	<ETextile />
+	<EmojiSonification />
+	<ExpoCompanion />
 </ProjectOverviewLayout>
+<Footer />

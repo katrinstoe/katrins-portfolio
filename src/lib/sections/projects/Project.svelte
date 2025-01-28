@@ -4,6 +4,7 @@
 	import DividerOrange from '$lib/components/dividers/DividerOrange.svelte';
 	import DividerPink from '$lib/components/dividers/DividerPink.svelte';
 	import DividerBlue from '$lib/components/dividers/DividerBlue.svelte';
+	import { goto } from '$app/navigation';
 
 	export let year = '2022';
 	export let title = 'Infographic Design';
@@ -11,6 +12,7 @@
 
 	export let description = 'Description with html support';
 	export let divider: 'pink' | 'blue' | 'orange' = 'orange';
+	export let path: string;
 </script>
 
 <article class="py-12">
@@ -31,12 +33,7 @@
 				</p>
 
 				<div class="pt-12">
-					<SkribbleButton
-						on:click={() => {
-							console.log('test');
-						}}
-						>{buttonText}
-					</SkribbleButton>
+					<SkribbleButton on:click={() => goto(path)}>{buttonText}</SkribbleButton>
 				</div>
 			</div>
 			<div class="min-w-20 basis-1/4">

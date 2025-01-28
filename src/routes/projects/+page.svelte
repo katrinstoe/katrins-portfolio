@@ -3,7 +3,7 @@
 	import SectionHeader from '$lib/components/SectionHeader.svelte';
 	import ContactHeroShapes from '$lib/components/shapes/ContactHeroShapes.svelte';
 	import IconLinkedIn from '$lib/components/icons/IconLinkedIn.svelte';
-	import Shapes from '../about/shapes.svelte';
+	import Shapes from '$lib/components/Shapes.svelte';
 	import HeroShapes from '$lib/components/shapes/HeroShapes.svelte';
 	import Introduction from '$lib/sections/hero/Introduction.svelte';
 	import ProjectCategories from '$lib/sections/projectCategories/ProjectCategories.svelte';
