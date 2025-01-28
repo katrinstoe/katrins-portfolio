@@ -137,4 +137,19 @@
 			</ul>
 		</ProjectSectionWrapper>
 	</Wrapper>
+	<Wrapper>
+		<ProjectSectionWrapper>
+			<SubsectionHeader
+				>The final report Paper for this Project can be viewed here:</SubsectionHeader
+			>
+			<div class="mt-8 flex items-center justify-center">
+				<iframe
+					src="/pdfs/Multimodal_Interaction_and_Interfaces_DT2140.pdf"
+					width="500"
+					height="1000"
+					title="PDF"
+				/>
+			</div>
+		</ProjectSectionWrapper>
+	</Wrapper>
 </DetailProjectLayout>
