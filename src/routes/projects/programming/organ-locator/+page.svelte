@@ -78,7 +78,7 @@
 		</p>
 		<UnorderedList {items} />
 		<Image
-			src="/imgs/Projects/OrganLocator/3InterfaceStates.png"
+			src="/imgs/Projects/OrganLocator/3interfaceStates.png"
 			alt="Three Interface States Screenshots, wrong, correct, nothing clicked"
 			class="mt-10 rounded-lg"
 		></Image>
@@ -131,7 +131,7 @@
 				src="/pdfs/Multimodal_Interaction_and_Interfaces_DT2140.pdf"
 				width="500"
 				height="1000"
-				title="PDF"
+				title="PDF Multimodal Interaction and Interfaces Report"
 			/>
 		</div>
 	</ProjectSectionWrapper>
