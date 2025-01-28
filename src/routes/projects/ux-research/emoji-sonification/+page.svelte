@@ -74,6 +74,7 @@
 	contributors="solo project, Supervision & Paper publishing: Stephan Huber"
 	opacity="opacity-50"
 	sectionTitle="Emoji Sonification"
+	colorHeader="bg-crazyorange/90"
 >
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Summary</SubsectionHeader>
@@ -102,7 +103,7 @@
 		<Image
 			src="/imgs/Projects/EmojiSonification/emojiTable.jpg"
 			alt="Emoji Sonification Table - which Emoji to which Sound"
-			class="mt-10 rounded-lg"
+			class="small-image mt-10 rounded-lg"
 		></Image>
 	</ProjectSectionWrapper>
 
@@ -118,10 +119,16 @@
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Impact</SubsectionHeader>
 		<p>
-			This thesis was later published as a paper (link), underscoring its contribution to the field
-			of Human-Computer Interaction (HCI) and accessible design. The findings have practical
+			This thesis was later published as a paper, underscoring its contribution to the field of
+			Human-Computer Interaction (HCI) and accessible design. The findings have practical
 			implications for improving emotion communication in screen readers and voice assistants,
 			paving the way for more inclusive digital interactions.
+			<a
+				href="https://doi.org/10.1145/3679318.3685403"
+				target="_blank"
+				aria-label="External Link to the paper on the ACM Digital Library"
+				style="color: blue;">Link to Paper</a
+			>
 		</p>
 	</ProjectSectionWrapper>
 
@@ -130,3 +137,10 @@
 		<UnorderedList items={itemsTakeaways} headings={itemsTakeawaysHeadings}></UnorderedList>
 	</ProjectSectionWrapper>
 </DetailProjectLayout>
+
+<style>
+	.small-image {
+		max-width: 50%;
+		height: auto;
+	}
+</style>

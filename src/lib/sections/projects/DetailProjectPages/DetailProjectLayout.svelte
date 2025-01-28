@@ -11,6 +11,7 @@
 	export let altText: string;
 	export let opacity: string;
 	export let sectionTitle: string;
+	export let colorHeader: string;
 </script>
 
 <div class="h-full min-h-screen">
@@ -30,7 +31,7 @@
 							<!-- <div class="shrink-0 sm:basis-1/3"></div> -->
 							<!-- content -->
 							<div
-								class="grow bg-crazyorange/90 p-6 backdrop-blur xs:grow-0 xs:basis-3/4 sm:basis-2/3 sm:p-8"
+								class="grow {colorHeader} p-6 backdrop-blur xs:grow-0 xs:basis-3/4 sm:basis-2/3 sm:p-8"
 							>
 								<h2 class="mb-4 text-4xl font-bold">{sectionTitle}</h2>
 								<p>

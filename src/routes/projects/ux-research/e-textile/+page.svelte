@@ -42,6 +42,7 @@
 	contributors="Jingyi Yan, Katrin Stötter, Olle Söderberg, Oskar Bergström"
 	opacity="opacity-20"
 	sectionTitle="Interactive E-Textile"
+	colorHeader="bg-funpink"
 >
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Interactive E-Textile</SubsectionHeader>

@@ -21,6 +21,7 @@
 	contributors="Amanda Arbinge, Gabriela Kirlyuk, Hannah Johnson, Katrin Stötter"
 	opacity="opacity-50"
 	sectionTitle="Interactive Organ Locator"
+	colorHeader="bg-crazyorange/90"
 >
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Summary</SubsectionHeader>
@@ -78,7 +79,7 @@
 		</p>
 		<UnorderedList {items} />
 		<Image
-			src="/imgs/Projects/OrganLocator/3interfaceStates.png"
+			src="/imgs/Projects/OrganLocator/3interfaceStates.jpg"
 			alt="Three Interface States Screenshots, wrong, correct, nothing clicked"
 			class="mt-10 rounded-lg"
 		></Image>
