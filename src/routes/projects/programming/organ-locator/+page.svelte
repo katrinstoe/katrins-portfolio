@@ -78,11 +78,13 @@
 			including:
 		</p>
 		<UnorderedList {items} />
-		<Image
-			src="/imgs/Projects/OrganLocator/3interfaceStates.jpg"
-			alt="Three Interface States Screenshots, wrong, correct, nothing clicked"
-			class="mt-10 rounded-lg"
-		></Image>
+		<div class="flex justify-center">
+			<Image
+				src="/imgs/Projects/OrganLocator/3interfaceStates.jpg"
+				alt="Three Interface States Screenshots, wrong, correct, nothing clicked"
+				class="mt-10 rounded-lg md:w-1/2"
+			></Image>
+		</div>
 	</ProjectSectionWrapper>
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Tools</SubsectionHeader>

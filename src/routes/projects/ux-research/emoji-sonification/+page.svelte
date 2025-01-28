@@ -100,11 +100,13 @@
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Methods</SubsectionHeader>
 		<OrderedList items={itemsMethod} headings={itemsMethodHeadings}></OrderedList>
-		<Image
-			src="/imgs/Projects/EmojiSonification/emojiTable.jpg"
-			alt="Emoji Sonification Table - which Emoji to which Sound"
-			class="small-image mt-10 rounded-lg"
-		></Image>
+		<div class="flex justify-center">
+			<Image
+				src="/imgs/Projects/EmojiSonification/emojiTable.jpg"
+				alt="Emoji Sonification Table - which Emoji to which Sound"
+				class="small-image mt-10 rounded-lg md:w-1/2"
+			></Image>
+		</div>
 	</ProjectSectionWrapper>
 
 	<ProjectSectionWrapper>
