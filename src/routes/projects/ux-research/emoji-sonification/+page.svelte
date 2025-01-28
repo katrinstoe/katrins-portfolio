@@ -7,32 +7,32 @@
 	import OrderedList from '$lib/components/OrderedList.svelte';
 
 	let items = [
-		'Designing and implementing a **prototype** for emotion sonification.',
-		'Conducting iterative **user research** with participants who are blind, visually impaired, or sighted.',
+		'Designing and implementing a prototype for emotion sonification.',
+		'Conducting iterative user research with participants who are blind, visually impaired, or sighted.',
 		'Evaluated recognition accuracy, confidence, and user preferences through **quantitative and qualitative methods**.',
-		'Analyzed results using **statistical tests** (e.g., ANOVA).'
+		'Analyzed results using statistical tests (e.g., ANOVA).'
 	];
 
 	let itemsMethod = [
-		'**Research and Literature Review**: Studied existing accessibility challenges in emoji usage and human voice-based emotion recognition.',
-		'**Prototyping**: Developed sonified versions of emojis using **validated emotion categories (Cowen et al.)** and tested them with diverse participants during pre-tests.',
-		'**Developed own Research Tool (BUES)**: During the pre-tests, I also found that no research tool was adequately accessible for my purpose of navigating independently and listening to audio files. Therefore I developed my own accessible research tool called BUES (Barrierefreies Umfragetool für Emoji Sonifizierung), which uses SvelteKit, a PostgressSQL-Database and client-side RSA encryption to ensure anonymity. The tool was expanded from the open-source survey tool developed by Jacob Heim called AISS (Audio-Image-Schema Surveys) (link).',
-		'**User Testing**: I conducted a **quantitative online study** with 46 participants, including both blind/visually impaired (n=27) and sighted individuals (n=19). Participants evaluated **seven sonified emotion categories** (e.g., anger, amusement, sadness) in four conditions: Vocal bursts only, Prosody only, Prosody + vocal bursts, and Screen reader + vocal bursts. The study measured **Recognition Accuracy**, **Confidence**, **Speed**, and **Preference**.',
-		'**Data Analysis**: Applied statistical methods to compare the effectiveness of different sonification approaches. For this part, I used JASP to calculate the statistics and Pandas to retrieve the data from the database and format it correctly.'
+		'Research and Literature Review: Studied existing accessibility challenges in emoji usage and human voice-based emotion recognition.',
+		'Prototyping: Developed sonified versions of emojis using validated emotion categories (Cowen et al.) and tested them with diverse participants during pre-tests.',
+		'Developed own Research Tool (BUES): During the pre-tests, I also found that no research tool was adequately accessible for my purpose of navigating independently and listening to audio files. Therefore I developed my own accessible research tool called BUES (Barrierefreies Umfragetool für Emoji Sonifizierung), which uses SvelteKit, a PostgressSQL-Database and client-side RSA encryption to ensure anonymity. The tool was expanded from the open-source survey tool developed by Jacob Heim called AISS (Audio-Image-Schema Surveys) (link).',
+		'User Testing: I conducted a quantitative online study with 46 participants, including both blind/visually impaired (n=27) and sighted individuals (n=19). Participants evaluated seven sonified emotion categories (e.g., anger, amusement, sadness) in four conditions: Vocal bursts only, Prosody only, Prosody + vocal bursts, and Screen reader + vocal bursts. The study measured Recognition Accuracy, Confidence, Speed, and Preference.',
+		'Data Analysis: Applied statistical methods to compare the effectiveness of different sonification approaches. For this part, I used JASP to calculate the statistics and Pandas to retrieve the data from the database and format it correctly.'
 	];
 
 	let itemsTools = [
-		'**Development**: Custom survey tool designed for accessibility (BUES).',
-		'**Audio Processing**: Hume.ai for validating emotion-specific vocalizations.',
-		'**Analysis**: G*Power for sample size calculation, ANOVA for statistical evaluation.',
-		'**Survey Hosting**: Typeform for conducting pilot studies and main surveys.'
+		'Development: Custom survey tool designed for accessibility (BUES).',
+		'Audio Processing: Hume.ai for validating emotion-specific vocalizations.',
+		'Analysis: G*Power for sample size calculation, ANOVA for statistical evaluation.',
+		'Survey Hosting: Typeform for conducting pilot studies and main surveys.'
 	];
 
 	let itemsInsights = [
-		'**Combination Matters**: Prosody combined with vocal bursts significantly improved emotion recognition accuracy compared to vocal bursts alone or screen reader outputs.',
-		'**Positioning is Key**: Placing vocal bursts at the beginning of a sentence enhanced recognition speed and confidence for both user groups.',
-		'**Inclusivity Works**: Blind and sighted participants performed equally well in recognizing sonified emotions, showing the potential for inclusive solutions.',
-		'**User Preferences**: Participants preferred prosody and vocal bursts over traditional screen reader descriptions, emphasizing the importance of natural and expressive audio cues.'
+		'Combination Matters: Prosody combined with vocal bursts significantly improved emotion recognition accuracy compared to vocal bursts alone or screen reader outputs.',
+		'Positioning is Key: Placing vocal bursts at the beginning of a sentence enhanced recognition speed and confidence for both user groups.',
+		'Inclusivity Works: Blind and sighted participants performed equally well in recognizing sonified emotions, showing the potential for inclusive solutions.',
+		'User Preferences: Participants preferred prosody and vocal bursts over traditional screen reader descriptions, emphasizing the importance of natural and expressive audio cues.'
 	];
 
 	let itemsTakeaways = [
