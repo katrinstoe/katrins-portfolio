@@ -1,8 +1,6 @@
 <script>
-	import BgImage from '../../../about/BgImage.svelte';
 	import DetailProjectLayout from '$lib/sections/projects/DetailProjectPages/DetailProjectLayout.svelte';
 	import Wrapper from '$lib/components/Wrapper.svelte';
-	import SectionHeader from '$lib/components/SectionHeader.svelte';
 	import Video from '$lib/components/Video.svelte';
 	import SubsectionHeader from '$lib/components/SubsectionHeader.svelte';
 	import ProjectSectionWrapper from '$lib/components/ProjectSectionWrapper.svelte';
