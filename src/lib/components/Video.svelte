@@ -4,18 +4,24 @@
 	// Convert Vimeo URLs to embed format
 	const getEmbedUrl = (url: string) => {
 		if (url.startsWith('https://vimeo.com')) {
-			const videoId = url.split('/').pop(); // Extract video ID
+			const videoId = url.split('/').pop(); // Extract Vimeo video ID
 			return `https://player.vimeo.com/video/${videoId}`;
+		} else if (url.startsWith('https://www.youtube.com') || url.startsWith('https://youtube.com')) {
+			const urlParams = new URLSearchParams(new URL(url).search);
+			const videoId = urlParams.get('v'); // Extract YouTube video ID from URL query parameter
+			return `https://www.youtube.com/embed/${videoId}`;
 		}
-		return url; // Return as is for non-Vimeo links
+		return url; // Return the URL as-is for non-Vimeo and non-YouTube links
 	};
 
-	$: embedUrl = getEmbedUrl(src); // Determine if it's an embeddable URL
-	$: isEmbed = embedUrl.startsWith('https://player.vimeo.com'); // Check for Vimeo embed links
+	$: embedUrl = getEmbedUrl(src); // Determine the embeddable URL
+	$: isEmbed =
+		embedUrl.startsWith('https://player.vimeo.com') ||
+		embedUrl.startsWith('https://www.youtube.com/embed'); // Check for Vimeo or YouTube embed links
 </script>
 
 {#if isEmbed}
-	<!-- Use an iframe for Vimeo embed -->
+	<!-- Use an iframe for Vimeo or YouTube embed -->
 	<div class="video-container">
 		<iframe src={embedUrl} allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
 		></iframe>
