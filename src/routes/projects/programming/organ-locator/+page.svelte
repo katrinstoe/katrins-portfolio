@@ -39,7 +39,7 @@
 	</Wrapper>
 	<Wrapper>
 		<div class="flex items-center justify-center py-8">
-			<Video src="/imgs/Projects/OrganLocator/OrganLocatorDemo.MP4" />
+			<Video src="https://vimeo.com/1044357819?share=copy" />
 		</div>
 	</Wrapper>
 	<Wrapper>
