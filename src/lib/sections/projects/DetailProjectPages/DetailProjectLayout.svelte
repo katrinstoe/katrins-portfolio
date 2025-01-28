@@ -1,10 +1,8 @@
 <script lang="ts">
 	import Footer from '$lib/components/Footer.svelte';
-	import SectionHeader from '$lib/components/SectionHeader.svelte';
 	import Wrapper from '$lib/components/Wrapper.svelte';
 	import BgImage from '../../../../routes/about/BgImage.svelte';
 	import Shapes from '$lib/components/Shapes.svelte';
-	import SubsectionHeader from '$lib/components/SubsectionHeader.svelte';
 
 	export let duration: string;
 	export let contributors: string;
