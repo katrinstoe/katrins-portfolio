@@ -1,7 +1,7 @@
 <script>
 	let pageToNavigateToUXResearch = '/projects/ux-research/';
-	let pageToNavigateToProgramming = '/projects/programming';
-	let pageToNavigateToUXDesign = '/projects/ux-design';
+	let pageToNavigateToProgramming = '/projects/programming/';
+	let pageToNavigateToUXDesign = '/projects/ux-design/';
 
 	import Card from '$lib/components/Card.svelte';
 </script>
