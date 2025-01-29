@@ -5,8 +5,6 @@
 	import UnorderedList from '$lib/components/shapes/UnorderedList.svelte';
 	import Image from 'svimg/Image.svelte';
 	import OrderedList from '$lib/components/OrderedList.svelte';
-	import Wrapper from '$lib/components/Wrapper.svelte';
-	import Video from '$lib/components/Video.svelte';
 
 	let items = [
 		'Creating an intuitive and engaging interaction method.',
