@@ -57,7 +57,7 @@
 	imgSrc="/imgs/Projects/ForgetMeNot/forgetmenot.png"
 	altText="Background Image Forget-Me-Not Box"
 	duration="20. April- 19. July 2022 (~ 12 weeks)"
-	contributors="solo project"
+	contributors="Individual project"
 	opacity="opacity-50"
 	sectionTitle="Forget-me-not Box"
 	colorHeader="bg-crazyorange/90"

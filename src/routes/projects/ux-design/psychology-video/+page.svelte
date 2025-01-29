@@ -18,12 +18,6 @@
 		'Adobe After Effects and Premiere Pro.'
 	];
 	let itemsMethodHeadings = ['Content Development:', 'Tools:'];
-	let itemsFeaturesHeadings = [
-		'Tangible interaction:',
-		'Playful & accessible:',
-		'Designed for travel:',
-		'Visual progress indicator:'
-	];
 	let itemsTakeaways = [
 		'Gained hands-on experience in transforming abstract psychological theories into digestible visual content.',
 		'Learned to balance creativity and scientific accuracy while working collaboratively in a group setting.',
