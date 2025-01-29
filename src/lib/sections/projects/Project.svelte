@@ -36,7 +36,7 @@
 					<SkribbleButton on:click={() => goto(path)}>{buttonText}</SkribbleButton>
 				</div>
 			</div>
-			<div class="min-w-20 basis-1/4">
+			<div class="min-w-20 md:basis-1/4">
 				<slot>Image Slot</slot>
 			</div>
 		</div>
