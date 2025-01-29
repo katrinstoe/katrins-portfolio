@@ -9,6 +9,7 @@
 	buttonText="Design Course"
 	year="2022"
 	divider="orange"
+	path="/projects/ux-design/info-graphic"
 >
 	<Image src="/imgs/info-graphic.png" alt="infographic poster" class="" />
 </Project>
