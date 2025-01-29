@@ -5,6 +5,10 @@
 	import UnorderedList from '$lib/components/shapes/UnorderedList.svelte';
 	import Image from 'svimg/Image.svelte';
 	import OrderedList from '$lib/components/OrderedList.svelte';
+	import AudioPlayer from '$lib/components/AudioPlayer.svelte';
+
+	let audioSrc = 'https://pub-722d106e492140b5b7d5005a21545d37.r2.dev/04_FA.mp3';
+	let audioSrcScreenReader = 'https://pub-722d106e492140b5b7d5005a21545d37.r2.dev/04_SA.mp3';
 
 	let items = [
 		'Designing and implementing a prototype for emotion sonification.',
@@ -85,7 +89,13 @@
 			clarity in digital communication.
 		</p>
 	</ProjectSectionWrapper>
-	<!-- Add an Audio component to display the project audio -->
+	<ProjectSectionWrapper>
+		<p>Two examples of the audio files and what they sound like.</p>
+		<p class="pt-7">Audio Prosody + Human voice: <AudioPlayer src={audioSrc} /></p>
+		<p class="pt-7">
+			Audio Prosody + Screen reader voice: <AudioPlayer src={audioSrcScreenReader} />
+		</p>
+	</ProjectSectionWrapper>
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Contributions</SubsectionHeader>
 		<p class="mb-5">
