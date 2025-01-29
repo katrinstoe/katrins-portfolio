@@ -38,7 +38,7 @@
 					>
 				</div>
 			</div>
-			<div class="min-w-20 md:basis-1/4">
+			<div class="w-full min-w-0 xs:w-2/3 md:basis-1/4">
 				<slot>Image Slot</slot>
 			</div>
 		</div>

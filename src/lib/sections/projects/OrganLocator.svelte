@@ -14,6 +14,6 @@
 	<Image
 		src="/imgs/Projects/OrganLocator/IdeaDrawing.jpg"
 		alt="Organ Locator Idea Illustration. Scanning a human body with a phone to locate organs."
-		class="pt-40"
+		class="md:pt-40"
 	/>
 </Project>

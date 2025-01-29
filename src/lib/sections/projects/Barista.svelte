@@ -15,6 +15,6 @@
 	<Image
 		src="/imgs/Projects/Barista/Barista.png"
 		alt="Screenshot of Barista Learning Platform"
-		class="pt-40"
+		class="md:pt-40"
 	/>
 </Project>

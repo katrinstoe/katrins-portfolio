@@ -15,6 +15,6 @@
 	<Image
 		src="/imgs/Projects/NimbitsMuehle/Muehle.png"
 		alt="Screenshot Homepage of Mühle Platform"
-		class="pt-40"
+		class="md:pt-40"
 	/>
 </Project>

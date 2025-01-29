@@ -15,6 +15,6 @@
 	<Image
 		src="/imgs/Projects/EmojiSonification/SonificationScreens.png"
 		alt="Image of Screens indicating the sonification of emojis with prosody and vocal bursts."
-		class="pt-40"
+		class="md:pt-40"
 	/>
 </Project>

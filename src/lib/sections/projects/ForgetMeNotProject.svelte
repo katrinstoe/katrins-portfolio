@@ -12,5 +12,5 @@
 	path="/projects/ux-design/forgetmenot"
 	colorButtonPath="/shapes/call-to-action-pink.svg"
 >
-	<Image src="/imgs/forgetmenot.png" alt="forgetmenot box" class="pt-24" />
+	<Image src="/imgs/forgetmenot.png" alt="forgetmenot box" class="md:pt-24" />
 </Project>
