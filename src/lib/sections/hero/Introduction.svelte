@@ -6,8 +6,8 @@
 </script>
 
 <div class=" flex flex-wrap items-center justify-center gap-12">
-	<div class="sm:basis-56 basis-36">
-		<Image src="/imgs/katrin-bild.png" immediate={true} class="mx-auto" />
+	<div class="basis-36 sm:basis-56">
+		<Image src="/imgs/katrin-bild.webp" immediate={true} class="mx-auto" />
 	</div>
 	<div class="basis-96">
 		<p class="text-xl">{@html introText}</p>
