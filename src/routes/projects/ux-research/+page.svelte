@@ -6,13 +6,7 @@
 	import Footer from '$lib/components/Footer.svelte';
 
 	const sectionTitle = 'UX Research Projects';
-	const sectionDescription = `EXCHANGE THIS TEXT: The project section contains a collection of projects that I have
-  completed during my studies at university. These projects cover a wide range of fields,
-  including usability, programming, and design. In this section, you can find examples of my
-  work and see how I have applied my skills and knowledge to tackle a variety of challenges.
-  Whether you are looking for inspiration, or just want to learn more about my experiences as a
-  university student, the project section has something for everyone. So be sure to check it
-  out!`;
+	const sectionDescription = `This section contains my favourite three UX Research projects.`;
 </script>
 
 <ProjectOverviewLayout {sectionTitle} {sectionDescription}>

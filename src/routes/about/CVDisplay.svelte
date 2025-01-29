@@ -6,6 +6,7 @@
 
 <Wrapper>
 	<SectionHeader>My CV</SectionHeader>
+	<!-- TODO: Update CV -->
 	<div class=" grid grid-cols-1 gap-8 lg:grid-cols-2">
 		<img src="/cv/cv-pic-1.png" alt="" class="" />
 		<img src="/cv/cv-pic-2.png" alt="" class="" />

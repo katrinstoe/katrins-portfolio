@@ -4,7 +4,8 @@
 
 	let introText =
 		'Hi, my name is Katrin. <br>' +
-		'I am a Human-Computer-Interaction graduate (BSc). Elevating UX, one beautiful design and user-friendly line of code at a time.\n';
+		'I am a Human-Computer-Interaction graduate (BSc) and currently studying Interactive Media Technology (MSc) at KTH in Stockholm, Sweden.<br>' +
+		'Elevating UX, one beautiful design and user-friendly line of code at a time.\n';
 </script>
 
 <div class="relative min-h-screen">

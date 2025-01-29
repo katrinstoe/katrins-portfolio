@@ -26,12 +26,13 @@
 							>
 								<SectionHeader>About</SectionHeader>
 								<p>
-									Human-Computer Interaction graduate from Germany with a strong passion for UX
-									Design, Usability and Programming. Adept at applying Human-Centered Design
-									principles to create intuitive and inclusive products, ensuring accessibility for
-									broad range of user needs. Self-driven and skilled in collaborative teamwork, I am
-									eager to continuously expand my knowledge in the field and contribute to
-									innovative design solutions.
+									Human-Computer Interaction graduate and Interactive Media Design student from
+									Germany with a strong passion for UX Design, Usability and Programming. Adept at
+									applying Human-Centered Design principles to create intuitive and inclusive
+									products, ensuring accessibility for broad range of user needs. Self-driven and
+									skilled in collaborative teamwork, I am eager to continuously expand my knowledge
+									in the field and contribute to innovative design solutions. Currently residing in
+									Stockholm, Sweden.
 								</p>
 							</div>
 						</div>
