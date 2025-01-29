@@ -8,6 +8,11 @@
 	import Image from 'svimg/Image.svelte';
 	import OrderedList from '$lib/components/OrderedList.svelte';
 
+	const pdfUrl =
+		'https://pub-722d106e492140b5b7d5005a21545d37.r2.dev/Workbook_Final%20hand%20in-compressed.pdf';
+	const videoUrl =
+		'https://pub-722d106e492140b5b7d5005a21545d37.r2.dev/Group14%20VideoPrototype%20hand%20in.mp4';
+
 	let itemsDiscover = [
 		'Reluctance to approach staff due to cultural or language barriers.',
 		'A preference for non-intrusive solutions that offer assistance without overwhelming users.'
@@ -56,7 +61,8 @@
 	</ProjectSectionWrapper>
 	<Wrapper>
 		<div class="flex items-center justify-center py-8">
-			<Video src="https://www.youtube.com/watch?v=k9CtKm1X-JQ" />
+			<!--<Video src="https://www.youtube.com/watch?v=k9CtKm1X-JQ" />-->
+			<Video src={videoUrl} />
 		</div>
 	</Wrapper>
 	<ProjectSectionWrapper>
@@ -134,8 +140,8 @@
 		<SubsectionHeader
 			>The final report for this Project in form of a Coffee table book can be viewed here:</SubsectionHeader
 		>
-		<!--<div class="mt-8 flex items-center justify-center">
-			<iframe src="/pdfs/Workbook_Final%20hand%20in.pdf" width="500" height="1000" title="PDF" />
-		</div>-->
+		<div class="mt-8 flex items-center justify-center">
+			<iframe src={pdfUrl} width="500" height="1000" title="PDF" />
+		</div>
 	</ProjectSectionWrapper>
 </DetailProjectLayout>

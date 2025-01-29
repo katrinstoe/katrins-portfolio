@@ -7,6 +7,8 @@
 	import UnorderedList from '$lib/components/shapes/UnorderedList.svelte';
 	import Image from 'svimg/Image.svelte';
 
+	const videoUrl = 'https://pub-722d106e492140b5b7d5005a21545d37.r2.dev/OrganLocatorDemo.mp4';
+
 	let items = [
 		'Designing a between-subjects study to compare audio and haptic feedback modalities.',
 		'Conducting a user study with participants of varying backgrounds and analyzing their experiences through surveys and open-ended feedback.',
@@ -35,7 +37,8 @@
 	</ProjectSectionWrapper>
 	<Wrapper>
 		<div class="flex items-center justify-center py-8">
-			<Video src="https://vimeo.com/1044357819" />
+			<!--<Video src="https://vimeo.com/1044357819" />-->
+			<Video src={videoUrl} />
 		</div>
 	</Wrapper>
 	<ProjectSectionWrapper>

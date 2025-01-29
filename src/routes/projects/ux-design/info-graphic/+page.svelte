@@ -5,7 +5,8 @@
 	import UnorderedList from '$lib/components/shapes/UnorderedList.svelte';
 	import Image from 'svimg/Image.svelte';
 	import OrderedList from '$lib/components/OrderedList.svelte';
-
+	const pdfUrl =
+		'https://pub-722d106e492140b5b7d5005a21545d37.r2.dev/WS23_GvisG_Abgabe_St%C3%B6tter_Katrin.pdf';
 	let itemsMethod = ['Green', 'Blue', 'Red', 'Yellow', 'Light Blue'];
 	let itemsMethodHeadings = [
 		'Health, youth, and well-being:',
@@ -94,7 +95,7 @@
 		<!--TODO: Include correct file somehow -->
 		<div class="mt-8 flex items-center justify-center">
 			<iframe
-				src="/pdfs/Handout_Stoetter_InteractionPrototyping_2619471.pdf"
+				src={pdfUrl}
 				width="500"
 				height="1000"
 				title="PDF Handout Stoetter Interaction Prototyping"
