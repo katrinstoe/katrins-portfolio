@@ -102,7 +102,7 @@
 			<Image
 				src="/imgs/Projects/EmojiSonification/emojiTable.jpg"
 				alt="Emoji Sonification Table - which Emoji to which Sound"
-				class="small-image mt-10 rounded-lg md:w-1/2"
+				class="mt-10 w-3/4 max-w-sm rounded-lg sm:w-2/3 md:w-1/2"
 			></Image>
 		</div>
 	</ProjectSectionWrapper>
@@ -137,10 +137,3 @@
 		<UnorderedList items={itemsTakeaways} headings={itemsTakeawaysHeadings}></UnorderedList>
 	</ProjectSectionWrapper>
 </DetailProjectLayout>
-
-<style>
-	.small-image {
-		max-width: 50%;
-		height: auto;
-	}
-</style>

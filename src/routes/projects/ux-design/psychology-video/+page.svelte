@@ -76,7 +76,7 @@
 			<Image
 				src="/imgs/Projects/PsychologyVideo/PsychologyVideoIllustration.png"
 				alt="Authoring Tool for the Barista Learning Platform"
-				class="small-image mt-10 rounded-lg md:w-4/5"
+				class="small-image mt-10 rounded-lg md:w-2/3"
 			></Image>
 		</div>
 	</ProjectSectionWrapper>

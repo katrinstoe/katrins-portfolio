@@ -92,7 +92,7 @@
 			<Image
 				src="/imgs/Projects/ForgetMeNot/boxBild.png"
 				alt="Coffee Ingredients Mixing Game"
-				class="small-image mt-10 rounded-lg md:w-2/3"
+				class="small-image mt-10 w-full rounded-lg sm:w-3/4 md:w-2/3 lg:w-2/3"
 			></Image>
 		</div>
 	</ProjectSectionWrapper>
@@ -114,7 +114,7 @@
 			<Image
 				src="/imgs/Projects/ForgetMeNot/userStory.png"
 				alt="Authoring Tool for the Barista Learning Platform"
-				class="small-image mt-10 rounded-lg md:w-4/5"
+				class="small-image mt-10 w-full rounded-lg sm:w-3/4 md:w-4/5 lg:w-4/5"
 			></Image>
 		</div>
 	</ProjectSectionWrapper>

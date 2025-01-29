@@ -61,7 +61,7 @@
 			<Image
 				src="/imgs/Projects/ExpoCompanion/ideation1.webp"
 				alt="Miro Screenshot of Ideation methods"
-				class="small-image mt-10 rounded-lg md:w-4/5"
+				class="mt-10 w-3/4 max-w-sm rounded-lg sm:w-4/5 md:w-1/2"
 			></Image>
 		</div>
 	</ProjectSectionWrapper>

@@ -97,7 +97,7 @@
 			<Image
 				src="/imgs/Projects/NimbitsMuehle/iStockScrum.jpg"
 				alt="Scrum Illustration Graphic"
-				class="small-image mt-10 rounded-lg md:w-4/5"
+				class="small-image mt-10 w-full rounded-lg sm:w-3/4 md:w-4/5 lg:w-2/3"
 			></Image>
 		</div>
 	</ProjectSectionWrapper>

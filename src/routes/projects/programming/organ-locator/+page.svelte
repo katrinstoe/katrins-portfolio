@@ -85,7 +85,7 @@
 			<Image
 				src="/imgs/Projects/OrganLocator/3interfaceStates.jpg"
 				alt="Three Interface States Screenshots, wrong, correct, nothing clicked"
-				class="mt-10 rounded-lg md:w-1/2"
+				class="mt-10 w-full rounded-lg sm:w-3/4 md:w-1/2 lg:w-1/3"
 			></Image>
 		</div>
 	</ProjectSectionWrapper>
