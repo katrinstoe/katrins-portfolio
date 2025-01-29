@@ -10,6 +10,7 @@
 	year="2022"
 	buttonText="Design process"
 	path="/projects/ux-design/forgetmenot"
+	colorButtonPath="/shapes/call-to-action-pink.svg"
 >
 	<Image src="/imgs/forgetmenot.png" alt="forgetmenot box" class="pt-24" />
 </Project>

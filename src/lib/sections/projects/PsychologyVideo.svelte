@@ -10,6 +10,7 @@
 	year="2021"
 	buttonText="Project details"
 	path="/projects/ux-design/psychology-video"
+	colorButtonPath="/shapes/call-to-action-orange.svg"
 >
 	<Image
 		src="/imgs/Projects/PsychologyVideo/PsychologyVideoIllustration.png"

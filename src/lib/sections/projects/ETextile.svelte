@@ -10,6 +10,7 @@
 	year="2024"
 	buttonText="Project details"
 	path="/projects/ux-research/e-textile"
+	colorButtonPath="/shapes/call-to-action-pink.svg"
 >
 	<Image
 		src="/imgs/Projects/ETextile/finalDesignBack.png"

@@ -13,6 +13,7 @@
 	export let description = 'Description with html support';
 	export let divider: 'pink' | 'blue' | 'orange' = 'orange';
 	export let path: string;
+	export let colorButtonPath = '/shapes/call-to-action.svg';
 </script>
 
 <article class="py-12">
@@ -33,7 +34,8 @@
 				</p>
 
 				<div class="pt-12">
-					<SkribbleButton on:click={() => goto(path)}>{buttonText}</SkribbleButton>
+					<SkribbleButton on:click={() => goto(path)} {colorButtonPath}>{buttonText}</SkribbleButton
+					>
 				</div>
 			</div>
 			<div class="min-w-20 md:basis-1/4">

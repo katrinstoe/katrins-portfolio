@@ -10,6 +10,7 @@
 	year="2022"
 	buttonText="Project details"
 	path="/projects/programming/barista"
+	colorButtonPath="/shapes/call-to-action-orange.svg"
 >
 	<Image
 		src="/imgs/Projects/Barista/Barista.png"

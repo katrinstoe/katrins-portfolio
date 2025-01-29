@@ -10,6 +10,7 @@
 	year="2023"
 	buttonText="Project details"
 	path="/projects/programming/nimbits-muehle"
+	colorButtonPath="/shapes/call-to-action-pink.svg"
 >
 	<Image
 		src="/imgs/Projects/NimbitsMuehle/Muehle.png"

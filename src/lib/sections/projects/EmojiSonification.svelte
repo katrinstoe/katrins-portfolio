@@ -10,6 +10,7 @@
 	year="Thesis: 2023, paper: 2024"
 	buttonText="Project details"
 	path="/projects/ux-research/emoji-sonification"
+	colorButtonPath="/shapes/call-to-action-orange.svg"
 >
 	<Image
 		src="/imgs/Projects/EmojiSonification/SonificationScreens.png"
