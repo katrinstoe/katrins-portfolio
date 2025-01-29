@@ -30,10 +30,17 @@
 	];
 
 	let itemsTakeAway = [
-		'Visual communication reduces barriers: Elements like LED cuffs and language indicators made staff more approachable.',
-		'Human interaction remains vital: Customers preferred direct engagement over purely digital solutions.',
-		'Iterative refinement is essential: Testing highlighted the need for balancing functionality, usability, and emotional comfort.',
-		'Importance of Testing an equally balanced user population: After finishing our project and talking to our professors we realized that by having interviewed only men, we missed a design flaw for women. Many women might feel uncomfortable with men in a supermarket being allowed to take pictures of their backs. This is an important factor and will be a learning for the following projects to come.'
+		'Elements like LED cuffs and language indicators made staff more approachable.',
+		'Customers preferred direct engagement over purely digital solutions.',
+		'Testing highlighted the need for balancing functionality, usability, and emotional comfort.',
+		'After finishing our project and talking to our professors we realized that by having interviewed only men, we missed a design flaw for women. Many women might feel uncomfortable with men in a supermarket being allowed to take pictures of their backs. This is an important factor and will be a learning for the following projects to come.'
+	];
+
+	let itemsTakeAwayHeaders = [
+		'Visual communication reduces barriers: ',
+		'Human interaction remains vital: ',
+		'Iterative refinement is essential: ',
+		'Importance of Testing an equally balanced user population: '
 	];
 
 	items = Array.isArray(items) ? items : [];
@@ -133,7 +140,7 @@
 
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Main Learnings & Insights</SubsectionHeader>
-		<OrderedList items={itemsTakeAway}></OrderedList>
+		<OrderedList items={itemsTakeAway} headings={itemsTakeAwayHeaders}></OrderedList>
 	</ProjectSectionWrapper>
 
 	<ProjectSectionWrapper>

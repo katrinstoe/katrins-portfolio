@@ -52,8 +52,6 @@
 	];
 </script>
 
-<div>hi</div>
-
 <DetailProjectLayout
 	imgSrc="/imgs/Projects/Barista/Barista.png"
 	altText="Background Image Organ Barista Game"

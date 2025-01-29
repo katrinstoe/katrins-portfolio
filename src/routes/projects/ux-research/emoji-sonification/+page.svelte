@@ -65,8 +65,6 @@
 	];
 </script>
 
-<div>hi</div>
-
 <DetailProjectLayout
 	imgSrc="/imgs/Projects/EmojiSonification/SonificationScreens.png"
 	altText="Background Image Organ Locator Illustration"

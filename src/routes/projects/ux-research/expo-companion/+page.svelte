@@ -29,8 +29,6 @@
 	];
 </script>
 
-<div>hi</div>
-
 <DetailProjectLayout
 	imgSrc="/imgs/Projects/ExpoCompanion/ExpoCompanion.png"
 	altText="Background Image Organ Locator Illustration"
