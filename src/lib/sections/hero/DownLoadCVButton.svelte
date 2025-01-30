@@ -6,7 +6,7 @@
 		isGerman = navigator.language.startsWith('de-');
 	});
 	//$: pdfLink = isGerman ? 'cv/de-cv-long-ks.pdf' : 'cv/en-cv-long-ks-new.pdf';
-	$: pdfLink = 'cv/en-cv-long-ks-new.pdf';
+	$: pdfLink = 'cv/CV_Katrin_Stoetter_2025.pdf';
 </script>
 
 <div class=" mt-16 flex h-12 flex-col justify-center">

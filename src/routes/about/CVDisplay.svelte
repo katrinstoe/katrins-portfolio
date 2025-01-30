@@ -2,6 +2,7 @@
 	import Wrapper from '$lib/components/Wrapper.svelte';
 	import SkribbleButton from '$lib/components/SkribbleButton.svelte';
 	import SectionHeader from '$lib/components/SectionHeader.svelte';
+	import DownLoadCVButton from '$lib/sections/hero/DownLoadCVButton.svelte';
 </script>
 
 <Wrapper>
@@ -11,6 +12,6 @@
 		<img src="/cv/cv_katrin_p2.png" alt="CV Page 2" class="" />
 	</div>
 	<div>
-		<SkribbleButton>Download my resume</SkribbleButton>
+		<DownLoadCVButton>Download my resume</DownLoadCVButton>
 	</div>
 </Wrapper>
