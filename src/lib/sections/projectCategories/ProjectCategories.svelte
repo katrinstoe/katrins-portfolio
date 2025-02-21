@@ -4,7 +4,16 @@
 	let pageToNavigateToUXDesign = '/projects/ux-design/';
 
 	import Card from '$lib/components/Card.svelte';
+	const title = 'Project Category selection Katrin Stötter';
 </script>
+
+<svelte:head>
+	<title>{title}</title>
+	<meta
+		name="description"
+		content="Page contains selection for projects from UX Research, Programming or UX Design"
+	/>
+</svelte:head>
 
 <div class="flex flex-wrap justify-between gap-4 pt-20">
 	<!-- UX Research Card -->

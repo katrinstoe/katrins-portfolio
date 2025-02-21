@@ -7,7 +7,12 @@
 
 	const sectionTitle = 'UX Design Projects';
 	const sectionDescription = `This section contains my favourite three UX Design projects.`;
+	const title = 'UX Design Projects Katrin Stötter';
 </script>
+
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 
 <ProjectOverviewLayout {sectionTitle} {sectionDescription}>
 	<InfoGraphic />

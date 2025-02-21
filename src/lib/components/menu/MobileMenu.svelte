@@ -15,6 +15,7 @@
 				showMobileMenu = true;
 			}}
 			class="flex flex-col gap-1.5 p-2"
+			aria-label="Open Mobile Menu"
 		>
 			{#each { length: 3 } as _, idx}
 				<div class="h-1 w-7 rounded-sm bg-black"></div>
@@ -45,8 +46,9 @@
 					on:click={() => {
 						showMobileMenu = false;
 					}}
+					aria-label="Close Button"
 				>
-					<CloseIcon class="text-black" />
+					<CloseIcon />
 				</button>
 			</div>
 		</div>

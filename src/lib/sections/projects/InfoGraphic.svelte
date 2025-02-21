@@ -1,7 +1,12 @@
 <script lang="ts">
 	import Project from '$lib/sections/projects/Project.svelte';
 	import Image from 'svimg/Image.svelte';
+	const title = 'Infographic Design Project Page';
 </script>
+
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 
 <Project
 	title="Infographic Design"

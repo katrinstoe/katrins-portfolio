@@ -6,7 +6,17 @@
 		'Hi, my name is Katrin. <br>' +
 		'I am a Human-Computer-Interaction graduate (BSc) and currently studying Interactive Media Technology (MSc) at KTH in Stockholm, Sweden.<br>' +
 		'Elevating UX, one beautiful design and user-friendly line of code at a time.\n';
+
+	const title = 'Katrin Stötter Landing Page';
 </script>
+
+<svelte:head>
+	<title>{title}</title>
+	<meta
+		name="description"
+		content="Page shows most recent projects and a short description about Katrin Stötter"
+	/>
+</svelte:head>
 
 <div class="relative min-h-screen">
 	<HeroShapes />

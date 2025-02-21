@@ -5,6 +5,7 @@
 		viewBox="0 0 572 463"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		aria-labelledby="wave-triangle shape decoration"
 	>
 		<path
 			fill-rule="evenodd"

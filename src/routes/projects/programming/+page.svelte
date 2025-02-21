@@ -9,7 +9,12 @@
 
 	const sectionTitle = 'Programming Projects';
 	const sectionDescription = `This section contains my favourite three Programming projects.`;
+	const title = 'Programming Projects Katrin Stötter';
 </script>
+
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 
 <ProjectOverviewLayout {sectionTitle} {sectionDescription}>
 	<OrganLocator />

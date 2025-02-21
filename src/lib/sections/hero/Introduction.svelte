@@ -3,11 +3,17 @@
 	import DownLoadCVButton from '$lib/sections/hero/DownLoadCVButton.svelte';
 
 	export let introText: string;
+	export let title = 'Katrin Stötter Landing Page Portfolio';
 </script>
 
 <div class=" flex flex-wrap items-center justify-center gap-12">
 	<div class="basis-36 sm:basis-56">
-		<Image src="/imgs/katrin-bild.webp" immediate={true} class="mx-auto" />
+		<Image
+			src="/imgs/katrin-bild.webp"
+			alt="Katrin Stötter Portrait"
+			immediate={true}
+			class="mx-auto"
+		/>
 	</div>
 	<div class="basis-96">
 		<p class="text-xl">{@html introText}</p>

@@ -5,7 +5,12 @@
 	import BgImage from './BgImage.svelte';
 	import CvDisplay from './CVDisplay.svelte';
 	import Shapes from '$lib/components/Shapes.svelte';
+	export let title = 'About Katrin Stötter';
 </script>
+
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 
 <div class="h-full min-h-screen">
 	<div class="relative min-h-screen w-full">
