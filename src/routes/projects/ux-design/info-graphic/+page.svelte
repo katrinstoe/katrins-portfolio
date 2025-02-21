@@ -25,8 +25,12 @@
 		'Can effectively highlight differences between structured and unstructured time.',
 		'Improves readability and makes complex information more accessible.'
 	];
+	const title = 'Infographic Design Project Page';
 </script>
 
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 <DetailProjectLayout
 	imgSrc="/imgs/info-graphic.png"
 	altText="Background Image Info Graphic Design"

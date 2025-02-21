@@ -14,7 +14,12 @@
 		'Conducting a user study with participants of varying backgrounds and analyzing their experiences through surveys and open-ended feedback.',
 		'Using statistical tools to test hypotheses about naturalness, immersion, and task completion.'
 	];
+	const title = 'Interactive Organ Locator Project Page';
 </script>
+
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 
 <DetailProjectLayout
 	imgSrc="/imgs/Projects/OrganLocator/IdeaDrawing.jpg"

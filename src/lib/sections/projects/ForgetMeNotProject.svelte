@@ -1,12 +1,7 @@
 <script lang="ts">
 	import Project from '$lib/sections/projects/Project.svelte';
 	import Image from 'svimg/Image.svelte';
-	const title = 'Forget Me Not Box Project Page';
 </script>
-
-<svelte:head>
-	<title>{title}</title>
-</svelte:head>
 
 <Project
 	divider="blue"

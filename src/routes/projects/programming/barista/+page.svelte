@@ -50,7 +50,14 @@
 		'Improved my ability to work in diverse teams, learned to address varying skill levels, and developed communication strategies to keep the team on track.',
 		'Successfully navigated challenges like uneven team contributions and supported weaker team members to ensure project success.'
 	];
+
+	const title = 'Barista Learning Platform Project Page';
 </script>
+
+<svelte:head>
+	<title>{title}</title>
+	<meta name="description" content="Barista Project using Web Development" />
+</svelte:head>
 
 <DetailProjectLayout
 	imgSrc="/imgs/Projects/Barista/Barista.png"

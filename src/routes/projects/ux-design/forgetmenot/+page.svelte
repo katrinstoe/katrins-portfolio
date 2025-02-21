@@ -51,8 +51,12 @@
 		'Keeping interactions intuitive ensures usability for both children and parents.',
 		'Even without advanced fabrication tools, a well-crafted prototype can effectively communicate an idea.'
 	];
+	const title = 'Forget Me Not Box Project Page';
 </script>
 
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 <DetailProjectLayout
 	imgSrc="/imgs/Projects/ForgetMeNot/forgetmenot.png"
 	altText="Background Image Forget-Me-Not Box"

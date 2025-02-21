@@ -49,7 +49,13 @@
 		'Worked in a small team that valued open feedback and efficient workflows.',
 		'Developed clear guides to improve onboarding and knowledge sharing.'
 	];
+
+	const title = 'Nimbits GmbH: Mühle Platform Project Page';
 </script>
+
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 
 <DetailProjectLayout
 	imgSrc="/imgs/Projects/NimbitsMuehle/Muehle.png"

@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Wrapper from '$lib/components/Wrapper.svelte';
-	import SkribbleButton from '$lib/components/SkribbleButton.svelte';
 	import SectionHeader from '$lib/components/SectionHeader.svelte';
 	import DownLoadCVButton from '$lib/sections/hero/DownLoadCVButton.svelte';
 	export let title = 'CV Page';

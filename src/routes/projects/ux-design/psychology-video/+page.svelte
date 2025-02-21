@@ -23,7 +23,12 @@
 		'Learned to balance creativity and scientific accuracy while working collaboratively in a group setting.',
 		'Learned how to use After Effects and Premiere Pro.'
 	];
+	const title = 'Psychology Video Project Page';
 </script>
+
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 
 <DetailProjectLayout
 	imgSrc="/imgs/Projects/PsychologyVideo/PsychologyVideoIllustration.png"

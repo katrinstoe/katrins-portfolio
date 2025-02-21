@@ -1,13 +1,7 @@
 <script lang="ts">
 	import Project from '$lib/sections/projects/Project.svelte';
 	import Image from 'svimg/Image.svelte';
-	const title = 'Barista Learning Platform Project Page';
 </script>
-
-<svelte:head>
-	<title>{title}</title>
-	<meta name="description" content="Barista Project using Web Development" />
-</svelte:head>
 
 <Project
 	divider="pink"

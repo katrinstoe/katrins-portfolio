@@ -45,7 +45,12 @@
 
 	items = Array.isArray(items) ? items : [];
 	itemsDiscover = Array.isArray(itemsDiscover) ? itemsDiscover : [];
+	const title = 'Interactive E-Textile Prototype Project Page';
 </script>
+
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 
 <DetailProjectLayout
 	imgSrc="/imgs/Projects/ETextile/finalDesignBack.png"

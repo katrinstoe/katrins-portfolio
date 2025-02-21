@@ -1,12 +1,7 @@
 <script lang="ts">
 	import Project from '$lib/sections/projects/Project.svelte';
 	import Image from 'svimg/Image.svelte';
-	const title = 'Interactive E-Textile Prototype Project Page';
 </script>
-
-<svelte:head>
-	<title>{title}</title>
-</svelte:head>
 
 <Project
 	divider="blue"

@@ -27,8 +27,13 @@
 		'Participants (teachers) valued interactivity and novelty but required clear guidance to engage effectively.',
 		'The study revealed higher stimulation and autonomy fulfillment with the ExpoCompanion compared to paper questionnaires, though improvements were needed in clarity and technical stability.'
 	];
+
+	const title = 'Expo Companion Project Katrin Stötter';
 </script>
 
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 <DetailProjectLayout
 	imgSrc="/imgs/Projects/ExpoCompanion/ExpoCompanion.png"
 	altText="Background Image Organ Locator Illustration"

@@ -67,7 +67,13 @@
 		'Tools Utilized: ',
 		'Future Opportunities: '
 	];
+
+	const title = 'Accessible Emoji Sonification Project Page';
 </script>
+
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 
 <DetailProjectLayout
 	imgSrc="/imgs/Projects/EmojiSonification/SonificationScreens.png"
