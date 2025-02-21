@@ -11,9 +11,9 @@
 	buttonText="Project details"
 	path="/projects/programming/organ-locator"
 >
-	<Image
+	<img
 		src="/imgs/Projects/OrganLocator/IdeaDrawing.jpg"
 		alt="Organ Locator Idea Illustration. Scanning a human body with a phone to locate organs."
-		class="md:pt-40"
+		class="TestWhereIsTheALtNOtGOINGTHROUGH md:pt-40"
 	/>
 </Project>

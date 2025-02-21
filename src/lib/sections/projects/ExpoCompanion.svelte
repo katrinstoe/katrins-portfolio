@@ -11,7 +11,7 @@
 	buttonText="Project details"
 	path="/projects/ux-research/expo-companion"
 >
-	<Image
+	<img
 		src="/imgs/Projects/ExpoCompanion/ExpoCompanion.png"
 		alt="Illustration of ExpoCompanion App on a tablet with NFC-tagged leaves."
 	/>

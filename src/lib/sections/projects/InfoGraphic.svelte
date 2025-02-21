@@ -11,5 +11,5 @@
 	divider="orange"
 	path="/projects/ux-design/info-graphic"
 >
-	<Image src="/imgs/info-graphic.png" alt="infographic poster" class="" />
+	<img src="/imgs/info-graphic.png" alt="infographic poster" class="" />
 </Project>

@@ -12,7 +12,7 @@
 	path="/projects/ux-design/psychology-video"
 	colorButtonPath="/shapes/call-to-action-orange.svg"
 >
-	<Image
+	<img
 		src="/imgs/Projects/PsychologyVideo/PsychologyVideoIllustration.png"
 		alt="Screenshot of Illustration of the Video showing two people and a growing mountain of papers"
 		class="pt-32"

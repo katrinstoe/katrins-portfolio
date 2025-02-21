@@ -12,7 +12,7 @@
 	path="/projects/programming/barista"
 	colorButtonPath="/shapes/call-to-action-orange.svg"
 >
-	<Image
+	<img
 		src="/imgs/Projects/Barista/Barista.png"
 		alt="Screenshot of Barista Learning Platform"
 		class="md:pt-40"

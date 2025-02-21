@@ -12,7 +12,7 @@
 	path="/projects/programming/nimbits-muehle"
 	colorButtonPath="/shapes/call-to-action-pink.svg"
 >
-	<Image
+	<img
 		src="/imgs/Projects/NimbitsMuehle/Muehle.png"
 		alt="Screenshot Homepage of Mühle Platform"
 		class="md:pt-40"

@@ -12,9 +12,9 @@
 	path="/projects/ux-research/emoji-sonification"
 	colorButtonPath="/shapes/call-to-action-orange.svg"
 >
-	<Image
+	<img
 		src="/imgs/Projects/EmojiSonification/SonificationScreens.png"
-		alt="Image of Screens indicating the sonification of emojis with prosody and vocal bursts."
+		alt="Screens indicating the sonification of emojis with prosody and vocal bursts."
 		class="md:pt-40"
 	/>
 </Project>
