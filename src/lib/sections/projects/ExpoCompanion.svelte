@@ -12,7 +12,7 @@
 	path="/projects/ux-research/expo-companion"
 >
 	<img
-		src="/imgs/Projects/ExpoCompanion/ExpoCompanion.png"
+		src="/imgs/Projects/ExpoCompanion/ExpoCompanion.webp"
 		alt="Illustration of ExpoCompanion App on a tablet with NFC-tagged leaves."
 	/>
 </Project>

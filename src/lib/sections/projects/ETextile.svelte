@@ -13,7 +13,7 @@
 	colorButtonPath="/shapes/call-to-action-pink.svg"
 >
 	<img
-		src="/imgs/Projects/ETextile/finalDesignBack.png"
+		src="/imgs/Projects/ETextile/finalDesignBack.webp"
 		alt="E-Textile shirt Prototype with LED cuffs and Screen with QR Code on the back."
 	/>
 </Project>

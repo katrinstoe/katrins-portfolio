@@ -35,7 +35,7 @@
 	<title>{title}</title>
 </svelte:head>
 <DetailProjectLayout
-	imgSrc="/imgs/Projects/ExpoCompanion/ExpoCompanion.png"
+	imgSrc="/imgs/Projects/ExpoCompanion/ExpoCompanion.webp"
 	altText="Background Image Organ Locator Illustration"
 	duration="7. Oktober - 31.03.2023 (~ 24 weeks)"
 	contributors="Lorenz Bauer, Carina Frank, Jacob Heim, Marie Thienemann. Supervisor: Sara Wolf"

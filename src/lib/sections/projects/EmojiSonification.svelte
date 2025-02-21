@@ -13,7 +13,7 @@
 	colorButtonPath="/shapes/call-to-action-orange.svg"
 >
 	<img
-		src="/imgs/Projects/EmojiSonification/SonificationScreens.png"
+		src="/imgs/Projects/EmojiSonification/SonificationScreens.webp"
 		alt="Screens indicating the sonification of emojis with prosody and vocal bursts."
 		class="md:pt-40"
 	/>

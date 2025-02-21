@@ -76,7 +76,7 @@
 </svelte:head>
 
 <DetailProjectLayout
-	imgSrc="/imgs/Projects/EmojiSonification/SonificationScreens.png"
+	imgSrc="/imgs/Projects/EmojiSonification/SonificationScreens.webp"
 	altText="Background Image Organ Locator Illustration"
 	duration="01. February - 29. August 2023 (~ 7 weeks)"
 	contributors="solo project, Supervision & Paper publishing: Stephan Huber"

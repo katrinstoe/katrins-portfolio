@@ -53,7 +53,7 @@
 </svelte:head>
 
 <DetailProjectLayout
-	imgSrc="/imgs/Projects/ETextile/finalDesignBack.png"
+	imgSrc="/imgs/Projects/ETextile/finalDesignBack.webp"
 	altText="Background Image Interactive E-Textile"
 	duration="26. August - 11. October 2024 (~ 6 weeks)"
 	contributors="Jingyi Yan, Katrin Stötter, Olle Söderberg, Oskar Bergström"
