@@ -10,6 +10,7 @@
 	buttonText="Project details"
 	path="/projects/ux-design/psychology-video"
 	colorButtonPath="/shapes/call-to-action-orange.svg"
+	altTextButton="See full project details for the Psychology Video"
 >
 	<img
 		src="/imgs/Projects/PsychologyVideo/PsychologyVideoIllustration.png"

@@ -10,6 +10,7 @@
 	buttonText="Project details"
 	path="/projects/programming/barista"
 	colorButtonPath="/shapes/call-to-action-orange.svg"
+	altTextButton="See full project details for the Barista Learning Platform"
 >
 	<img
 		src="/imgs/Projects/Barista/Barista.png"

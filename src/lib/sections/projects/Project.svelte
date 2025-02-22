@@ -14,6 +14,7 @@
 	export let divider: 'pink' | 'blue' | 'orange' = 'orange';
 	export let path: string;
 	export let colorButtonPath = '/shapes/call-to-action.svg';
+	export let altTextButton: string;
 </script>
 
 <article class="py-12">
@@ -25,7 +26,7 @@
 		<DividerBlue />
 	{/if}
 	<Wrapper>
-		<p class="pb-10 text-4xl">{year}</p>
+		<h2 class="pb-10 text-4xl">{year}</h2>
 		<div class="flex flex-wrap justify-center gap-12">
 			<div class="grow basis-2/4">
 				<h2 class=" pb-10 text-3xl font-bold md:text-7xl">{title}</h2>
@@ -34,7 +35,8 @@
 				</p>
 
 				<div class="pt-12">
-					<SkribbleButton on:click={() => goto(path)} {colorButtonPath}>{buttonText}</SkribbleButton
+					<SkribbleButton {altTextButton} on:click={() => goto(path)} {colorButtonPath}
+						>{buttonText}</SkribbleButton
 					>
 				</div>
 			</div>

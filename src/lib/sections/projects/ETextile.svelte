@@ -10,6 +10,7 @@
 	buttonText="Project details"
 	path="/projects/ux-research/e-textile"
 	colorButtonPath="/shapes/call-to-action-pink.svg"
+	altTextButton="See full project details for the E-Textile Prototype"
 >
 	<img
 		src="/imgs/Projects/ETextile/finalDesignBack.webp"

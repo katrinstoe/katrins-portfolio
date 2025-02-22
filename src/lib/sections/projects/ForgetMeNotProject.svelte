@@ -10,6 +10,7 @@
 	buttonText="Design process"
 	path="/projects/ux-design/forgetmenot"
 	colorButtonPath="/shapes/call-to-action-pink.svg"
+	altTextButton="See full project details for the Forget Me Not Box Project"
 >
 	<img src="/imgs/forgetmenot.png" alt="forgetmenot box" class="md:pt-24" />
 </Project>

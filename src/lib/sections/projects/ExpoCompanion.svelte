@@ -9,6 +9,7 @@
 	year="2023"
 	buttonText="Project details"
 	path="/projects/ux-research/expo-companion"
+	altTextButton="See full project details for the Expo Companion"
 >
 	<img
 		src="/imgs/Projects/ExpoCompanion/ExpoCompanion.webp"

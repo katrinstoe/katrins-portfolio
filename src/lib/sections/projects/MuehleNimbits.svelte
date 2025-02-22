@@ -10,6 +10,7 @@
 	buttonText="Project details"
 	path="/projects/programming/nimbits-muehle"
 	colorButtonPath="/shapes/call-to-action-pink.svg"
+	altTextButton="See full project details for the Mühle Platform"
 >
 	<img
 		src="/imgs/Projects/NimbitsMuehle/Muehle.png"

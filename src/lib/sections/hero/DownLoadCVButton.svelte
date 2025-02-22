@@ -13,7 +13,12 @@
 	<div class="relative h-12 transition-all duration-300 hover:rotate-2 hover:scale-105">
 		<img class="absolute bottom-0" src="/shapes/call-to-action.svg" alt="Katrin portrait" />
 		<div class=" absolute bottom-3 left-10 w-full sm:left-12">
-			<a class="text-md mx-auto xs:text-xl" href={pdfLink} target="_blank" download={pdfLink}
+			<a
+				class="text-md mx-auto xs:text-xl"
+				href={pdfLink}
+				target="_blank"
+				download={pdfLink}
+				aria-label="Downloads Resume as PDF externally"
 				>Download my resume
 			</a>
 		</div>

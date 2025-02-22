@@ -9,6 +9,7 @@
 	year="2022"
 	divider="orange"
 	path="/projects/ux-design/info-graphic"
+	altTextButton="See the full design process for the Infographic Design"
 >
 	<img src="/imgs/info-graphic.png" alt="infographic poster" class="" />
 </Project>

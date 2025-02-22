@@ -7,7 +7,7 @@
 		'I am a Human-Computer-Interaction graduate (BSc) and currently studying Interactive Media Technology (MSc) at KTH in Stockholm, Sweden.<br>' +
 		'Elevating UX, one beautiful design and user-friendly line of code at a time.\n';
 
-	const title = 'Katrin Stötter Landing Page';
+	const title = 'Katrin Stötter Portfolio';
 </script>
 
 <svelte:head>
@@ -22,6 +22,8 @@
 	<HeroShapes />
 	<div class="absolute grid h-full w-full place-content-center">
 		<div class="wrapper max-w-4xl">
+			<!-- H1 here for accessibility reasons -->
+			<h1 class="hidden">About me</h1>
 			<Introduction {introText} />
 		</div>
 	</div>

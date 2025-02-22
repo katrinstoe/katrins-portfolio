@@ -10,7 +10,6 @@
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 		transform="rotate({rotate})"
-		aria-labelledby="half circle shape decoration"
 	>
 		<path
 			fill-rule="evenodd"

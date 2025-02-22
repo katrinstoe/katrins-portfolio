@@ -10,6 +10,7 @@
 	buttonText="Project details"
 	path="/projects/ux-research/emoji-sonification"
 	colorButtonPath="/shapes/call-to-action-orange.svg"
+	altTextButton="See full project details for the Emoji Sonification"
 >
 	<img
 		src="/imgs/Projects/EmojiSonification/SonificationScreens.webp"

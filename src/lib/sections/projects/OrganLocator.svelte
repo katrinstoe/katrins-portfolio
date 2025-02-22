@@ -9,6 +9,7 @@
 	year="2024"
 	buttonText="Project details"
 	path="/projects/programming/organ-locator"
+	altTextButton="See full project details for the Organ Locator"
 >
 	<img
 		src="/imgs/Projects/OrganLocator/IdeaDrawing.jpg"
