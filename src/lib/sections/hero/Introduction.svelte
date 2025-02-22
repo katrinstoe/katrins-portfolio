@@ -7,7 +7,7 @@
 </script>
 
 <div class=" flex flex-wrap items-center justify-center gap-12">
-	<div class="basis-36 sm:basis-56">
+	<div class="basis-36 self-start sm:basis-56">
 		<Image
 			src="/imgs/katrin-bild.webp"
 			alt="Katrin Stötter Portrait"
