@@ -63,7 +63,7 @@
 </svelte:head>
 
 <DetailProjectLayout
-	imgSrc="/imgs/Projects/ScoutsKit/Solarpunk%20kit%20small%20pic.png"
+	imgSrc="/imgs/Projects/ScoutsKit/SolarpunkKitSmallPic.png"
 	altText="Forester Kit Prototype Hanging on Tree"
 	duration="17. March – 26. May 2025 (10 weeks)"
 	contributors="Katrin Stötter, Amina-Kamra Maglic, Gabriela Kirlyuk, Yu Lu"
@@ -80,6 +80,11 @@
 			notebook), and can be worn or hung on trees. The components were built using recycled
 			materials, and all components were inspired by literature on soil and forest ecology.
 		</p>
+		<Image
+			src="/imgs/Projects/ScoutsKit/SolarpunkKitBanner.png"
+			alt="Forester Kit Image"
+			class="mt-10 rounded-lg"
+		></Image>
 	</ProjectSectionWrapper>
 
 	<ProjectSectionWrapper>
