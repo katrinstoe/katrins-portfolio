@@ -62,14 +62,15 @@
 	contributors="Diagnosa Fenomena, Hyosun Kim, Katrin Stötter, Marta Casandra Lendínez Ibáñez"
 	opacity="opacity-50"
 	sectionTitle="Once Upon a Budget"
-	colorHeader="pastelgreen"
+	colorHeader="bg-crazyorange/90"
 >
+	<!--	TODO: figure out why pastelgreen is not working-->
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Summary</SubsectionHeader>
 		<p>
-			The Once Upon a Budget plattform is a website designed to support finanical literacy amongst
+			The Once Upon a Budget platform is a website designed to support financial literacy amongst
 			women and girls. The platform includes a personality quiz, educational content, and simple
-			investment tools aswell as a Forum functionality all meant to support a low barrier of
+			investment tools as well as a Forum functionality all meant to support a low barrier of
 			entrance and a supportive environment of learning. The platform was developed using React,
 			Redux, and MUI, with data persistence via Firestore and external API integrations.
 		</p>
@@ -130,7 +131,13 @@
 	<ProjectSectionWrapper>
 		<SubsectionHeader>The final Readme for this Project can be viewed here:</SubsectionHeader>
 		<div class="mt-8 flex items-center justify-center">
-			<iframe src={pdfUrl} width="500" height="1000" title="PDF" />
+			<iframe
+				src={pdfUrl}
+				width="500"
+				height="1000"
+				title="PDF"
+				allow="fullscreen; autoplay; encrypted-media; picture-in-picture"
+			/>
 		</div>
 		<p class="pt-5">
 			If you are interested in seeing the entire project code, contact me and I can invite you as a
