@@ -13,19 +13,19 @@ importers:
         version: 5.5.3(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.13)(vite@5.2.8))(svelte@4.2.13)(vite@5.2.8))(rollup@4.14.2)
     devDependencies:
       '@sveltejs/adapter-auto':
-        specifier: ^3.0.0
+        specifier: ^3.2.0
         version: 3.2.0(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.13)(vite@5.2.8))(svelte@4.2.13)(vite@5.2.8))
       '@sveltejs/kit':
-        specifier: ^2.0.0
+        specifier: ^2.5.5
         version: 2.5.5(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.13)(vite@5.2.8))(svelte@4.2.13)(vite@5.2.8)
       '@sveltejs/vite-plugin-svelte':
-        specifier: ^3.0.0
+        specifier: ^3.1.0
         version: 3.1.0(svelte@4.2.13)(vite@5.2.8)
       '@types/eslint':
-        specifier: ^8.56.7
+        specifier: ^8.56.9
         version: 8.56.9
       autoprefixer:
-        specifier: ^10.4.16
+        specifier: ^10.4.19
         version: 10.4.19(postcss@8.4.38)
       eslint:
         specifier: ^9.0.0
@@ -34,46 +34,46 @@ importers:
         specifier: ^9.1.0
         version: 9.1.0(eslint@9.0.0)
       eslint-plugin-svelte:
-        specifier: ^2.36.0
+        specifier: ^2.37.0
         version: 2.37.0(eslint@9.0.0)(svelte@4.2.13)
       globals:
         specifier: ^15.0.0
         version: 15.0.0
       postcss:
-        specifier: ^8.4.32
+        specifier: ^8.4.38
         version: 8.4.38
       postcss-load-config:
-        specifier: ^5.0.2
+        specifier: ^5.0.3
         version: 5.0.3(jiti@1.21.0)(postcss@8.4.38)
       prettier:
-        specifier: ^3.1.1
+        specifier: ^3.2.5
         version: 3.2.5
       prettier-plugin-svelte:
-        specifier: ^3.1.2
+        specifier: ^3.2.2
         version: 3.2.2(prettier@3.2.5)(svelte@4.2.13)
       prettier-plugin-tailwindcss:
-        specifier: ^0.5.9
+        specifier: ^0.5.13
         version: 0.5.13(prettier-plugin-svelte@3.2.2(prettier@3.2.5)(svelte@4.2.13))(prettier@3.2.5)
       svelte:
-        specifier: ^4.2.7
+        specifier: ^4.2.13
         version: 4.2.13
       svelte-check:
-        specifier: ^3.6.0
+        specifier: ^3.6.9
         version: 3.6.9(postcss-load-config@5.0.3(jiti@1.21.0)(postcss@8.4.38))(postcss@8.4.38)(svelte@4.2.13)
       svimg:
         specifier: ^4.0.0
         version: 4.0.0
       tailwindcss:
-        specifier: ^3.3.6
+        specifier: ^3.4.3
         version: 3.4.3
       tslib:
-        specifier: ^2.4.1
+        specifier: ^2.6.2
         version: 2.6.2
       typescript:
-        specifier: ^5.0.0
+        specifier: ^5.4.5
         version: 5.4.5
       typescript-eslint:
-        specifier: ^7.5.0
+        specifier: ^7.6.0
         version: 7.6.0(eslint@9.0.0)(typescript@5.4.5)
       vite:
         specifier: ^5.2.8
@@ -797,8 +797,8 @@ packages:
     resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==}
     engines: {node: '>= 6'}
 
-  caniuse-lite@1.0.30001609:
-    resolution: {integrity: sha512-JFPQs34lHKx1B5t1EpQpWH4c+29zIyn/haGsbpfq3suuV9v56enjFt23zqijxGTMwy1p/4H2tjnQMY+p1WoAyA==}
+  caniuse-lite@1.0.30001726:
+    resolution: {integrity: sha512-VQAUIUzBiZ/UnlM28fSp2CRF3ivUn1BWEvxMcVTNwpw91Py1pGbPIyIKtd+tzct9C3ouceCVdGAXxZOpZAsgdw==}
 
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -2596,7 +2596,7 @@ snapshots:
   autoprefixer@10.4.19(postcss@8.4.38):
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001609
+      caniuse-lite: 1.0.30001726
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -2660,7 +2660,7 @@ snapshots:
 
   browserslist@4.23.0:
     dependencies:
-      caniuse-lite: 1.0.30001609
+      caniuse-lite: 1.0.30001726
       electron-to-chromium: 1.4.735
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
@@ -2676,7 +2676,7 @@ snapshots:
 
   camelcase-css@2.0.1: {}
 
-  caniuse-lite@1.0.30001609: {}
+  caniuse-lite@1.0.30001726: {}
 
   chalk@4.1.2:
     dependencies:

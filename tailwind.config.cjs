@@ -17,7 +17,8 @@ const config = {
         funpink: '#F488BA',
         crazyorange: '#FF9900',
         groovyblue: '#3A33A4',
-        slaywhite: "#fff"
+        slaywhite: '#fff',
+        pastelgreen: '#35C69F',
       }
     }
   },

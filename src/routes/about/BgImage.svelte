@@ -4,7 +4,7 @@
 	export let opacity: string = ''; // Accepts the image opacity as a prop
 </script>
 
-<div class="bg-image absolute">
-	<p>Alt Debug: {alt}</p>
-	<img {src} {alt} class="h-screen w-screen object-cover" class:opacity />
+<div class="bg-image absolute {opacity}">
+	<!--	<p>Alt Debug: {opacity}</p>-->
+	<img {src} {alt} class="h-screen w-screen object-cover" />
 </div>

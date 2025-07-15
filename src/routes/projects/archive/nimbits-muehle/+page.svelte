@@ -60,7 +60,7 @@
 <DetailProjectLayout
 	imgSrc="/imgs/Projects/NimbitsMuehle/Muehle.png"
 	altText="Background Image Muehle Homepage"
-	duration="15. Dezember 2022 - 31.06.2023 (~ 12 weeks)"
+	duration="15. December 2022 - 31. June 2023 (~ 12 weeks)"
 	contributors="Nimbits GmbH Team"
 	opacity="opacity-50"
 	sectionTitle="Nimbits GmbH - Mühle"
