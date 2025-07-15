@@ -4,6 +4,7 @@
 	import EmojiSonification from '$lib/sections/projects/EmojiSonification.svelte';
 	import ExpoCompanion from '$lib/sections/projects/ExpoCompanion.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import SLAccessibility from '$lib/sections/projects/SLAccessibility.svelte';
 
 	const sectionTitle = 'UX Research Projects';
 	const sectionDescription = `This section contains my favourite three UX Research projects.`;
@@ -15,8 +16,8 @@
 </svelte:head>
 
 <ProjectOverviewLayout {sectionTitle} {sectionDescription}>
+	<SLAccessibility />
 	<ETextile />
 	<EmojiSonification />
-	<ExpoCompanion />
 </ProjectOverviewLayout>
 <Footer />
