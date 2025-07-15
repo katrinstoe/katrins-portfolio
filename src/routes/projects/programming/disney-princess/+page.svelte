@@ -64,7 +64,6 @@
 	sectionTitle="Once Upon a Budget"
 	colorHeader="bg-crazyorange/90"
 >
-	<!--	TODO: figure out why pastelgreen is not working-->
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Summary</SubsectionHeader>
 		<p>
