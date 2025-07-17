@@ -6,6 +6,9 @@
 	import ETextile from '$lib/sections/projects/ETextile.svelte';
 	import OrganLocator from '$lib/sections/projects/OrganLocator.svelte';
 	import EmojiSonification from '$lib/sections/projects/EmojiSonification.svelte';
+	import DisneyPrincess from '$lib/sections/projects/DisneyPrincess.svelte';
+	import SLAccessibility from '$lib/sections/projects/SLAccessibility.svelte';
+	import ScoutsKit from '$lib/sections/projects/ScoutsKit.svelte';
 </script>
 
 <section class="pt-12">
@@ -27,7 +30,7 @@
 			style="color: blue;">Link to Projects Page</a
 		>
 	</Wrapper>
-	<OrganLocator />
-	<ETextile />
-	<EmojiSonification />
+	<ScoutsKit />
+	<DisneyPrincess />
+	<SLAccessibility />
 </section>
