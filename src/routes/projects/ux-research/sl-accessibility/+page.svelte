@@ -185,7 +185,7 @@
 	</ProjectSectionWrapper>
 
 	<ProjectSectionWrapper>
-		<SubsectionHeader>The final report Paper for this Project can be viewed here:</SubsectionHeader>
+		<SubsectionHeader>The final report for this Project can be viewed here:</SubsectionHeader>
 		<div class="mt-8 flex items-center justify-center">
 			<iframe
 				src="https://pub-722d106e492140b5b7d5005a21545d37.r2.dev/KTH_report_HCT_for_Disabilities_SL%20(3).pdf"
