@@ -2,7 +2,6 @@
 	import ProjectOverviewLayout from '$lib/components/ProjectOverviewLayout.svelte';
 	import ETextile from '$lib/sections/projects/ETextile.svelte';
 	import EmojiSonification from '$lib/sections/projects/EmojiSonification.svelte';
-	import ExpoCompanion from '$lib/sections/projects/ExpoCompanion.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import SLAccessibility from '$lib/sections/projects/SLAccessibility.svelte';
 
