@@ -59,7 +59,6 @@
 	sectionTitle="SL Accessibility Evaluation"
 	colorHeader="bg-funpink"
 >
-	<!--TODO: stattdessen Bild nehmen mit web accessibility tool also screenshot-->
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Summary</SubsectionHeader>
 		<p>
