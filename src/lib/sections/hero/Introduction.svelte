@@ -8,8 +8,10 @@
 
 <div class=" flex flex-wrap items-center justify-center gap-12">
 	<div class="basis-36 self-start sm:basis-56">
+		<!--			src="/imgs/katrin-bild.webp"-->
+
 		<Image
-			src="/imgs/katrin-bild.webp"
+			src="/imgs/shorthairegg.png"
 			alt="Katrin Stötter Portrait"
 			immediate={true}
 			class="mx-auto"
