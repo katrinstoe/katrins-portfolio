@@ -4,8 +4,8 @@
 
 	let introText =
 		'Hi, my name is Katrin. <br>' +
-		'I am a Human-Computer-Interaction graduate (BSc) and currently studying Interactive Media Technology (MSc) at KTH in Stockholm, Sweden.<br>' +
-		'Elevating UX, one beautiful design and user-friendly line of code at a time.\n';
+		'Currently pursuing an M.Sc. in Interactive Media Technology at KTH in Stockholm.<br>' +
+		'I’m interested in how design research, accessibility, and feminist HCI can make technology more inclusive and sustainable.\n';
 
 	const title = 'Katrin Stötter Portfolio';
 </script>
