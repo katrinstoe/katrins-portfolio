@@ -27,6 +27,7 @@
 			<DownLoadCVButton
 				pdfLink={'/cv/CVKatrinStötter_academia.pdf'}
 				buttonText="Download Academic CV"
+				buttonPadding="left-10 sm:left-7"
 			>
 				Download my Academic CV
 			</DownLoadCVButton>
@@ -47,6 +48,7 @@
 			<DownLoadCVButton
 				pdfLink={'/cv/CVKatrinStötter_industry.pdf'}
 				buttonText="Download Industry CV"
+				buttonPadding="left-10 sm:left-7"
 			>
 				Download Industry CV
 			</DownLoadCVButton>

@@ -9,12 +9,13 @@
 	// $: pdfLink = 'cv/CV_Katrin_Stoetter_2025.pdf';
 	export let pdfLink: string;
 	export let buttonText: string;
+	export let buttonPadding: string;
 </script>
 
 <div class=" mt-16 flex h-12 flex-col justify-center">
 	<div class="relative h-12 transition-all duration-300 hover:rotate-2 hover:scale-105">
 		<img class="absolute bottom-0" src="/shapes/call-to-action.svg" alt="Katrin portrait" />
-		<div class="absolute bottom-3 left-10 w-full sm:left-7">
+		<div class="absolute bottom-3 w-full {buttonPadding}">
 			<a
 				class="text-md mx-auto xs:text-xl"
 				href={pdfLink}

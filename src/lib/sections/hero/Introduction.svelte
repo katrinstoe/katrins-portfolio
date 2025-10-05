@@ -17,6 +17,10 @@
 	</div>
 	<div class="basis-96">
 		<p class="text-xl">{@html introText}</p>
-		<DownLoadCVButton />
+		<DownLoadCVButton
+			pdfLink={'/cv/CVKatrinStötter_industry.pdf'}
+			buttonText="Download CV"
+			buttonPadding="left-10 sm:left-12"
+		/>
 	</div>
 </div>
