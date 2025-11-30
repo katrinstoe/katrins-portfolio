@@ -8,7 +8,7 @@
 	description="This project was created as my final exam for the interaction guidelines seminar. It includes a tangible prototype for a box that connects children with their parents over distance and enables collaborative play with legos. To see the entire design pocess, click below."
 	year="2022"
 	buttonText="Design process"
-	path="/projects/ux-design/forgetmenot"
+	path="/projects/archive/forgetmenot"
 	colorButtonPath="/shapes/call-to-action-pink.svg"
 	altTextButton="See full project details for the Forget Me Not Box Project"
 >

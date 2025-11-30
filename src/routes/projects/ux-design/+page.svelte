@@ -5,6 +5,7 @@
 	import PsychologyVideo from '$lib/sections/projects/PsychologyVideo.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import ScoutsKit from '$lib/sections/projects/ScoutsKit.svelte';
+	import BlastTheoryGame from '$lib/sections/projects/BlastTheoryGame.svelte';
 
 	const sectionTitle = 'UX Design Projects';
 	const sectionDescription = `This section contains my favourite three UX Design projects.`;
@@ -16,8 +17,8 @@
 </svelte:head>
 
 <ProjectOverviewLayout {sectionTitle} {sectionDescription}>
+	<BlastTheoryGame />
 	<ScoutsKit />
 	<InfoGraphic />
-	<ForgetMeNotProject />
 </ProjectOverviewLayout>
 <Footer />
