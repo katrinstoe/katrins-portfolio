@@ -171,6 +171,13 @@
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Main Learnings</SubsectionHeader>
 		<UnorderedList items={itemsTakeaways} headings={itemsTakeawaysHeadings} />
+		<div class="flex justify-center">
+			<Image
+				src="/imgs/Projects/BlastTheory/thumbnail.png"
+				alt="Interaction in Video Prototype by confirming the dialogue"
+				class="small-image mt-10 w-full rounded-lg sm:w-3/4 md:w-4/5 lg:w-4/5"
+			></Image>
+		</div>
 	</ProjectSectionWrapper>
 
 	<ProjectSectionWrapper>
