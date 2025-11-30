@@ -88,9 +88,8 @@
 		<UnorderedList items={itemsMethod} headings={itemsMethodHeadings}></UnorderedList>
 
 		<p>The first Video Prototype</p>
-		<!--		TODO: ersetzen mit TRUCold version 1 video-->
 		<div class="flex items-center justify-center py-8">
-			<Video src="https://www.youtube.com/watch?v=9jfP_rDgHqQ&feature=youtu.be" />
+			<Video src="https://www.youtube.com/watch?v=30RogyIj5dI" />
 		</div>
 	</ProjectSectionWrapper>
 
@@ -148,10 +147,9 @@
 		</p>
 
 		<div class="flex justify-center">
-			<!--			TODO Replace with a screenshot from the First Prototype-->
 			<Image
-				src="/imgs/Projects/ForgetMeNot/userStory.png"
-				alt="Authoring Tool for the Barista Learning Platform"
+				src="/imgs/Projects/BlastTheory/video_prototype_screenshot.png"
+				alt="Interaction in Video Prototype by choosing an answer in the dialogue"
 				class="small-image mt-10 w-full rounded-lg sm:w-3/4 md:w-4/5 lg:w-4/5"
 			></Image>
 		</div>
