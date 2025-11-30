@@ -19,10 +19,10 @@
 		'GDevelop to quickly prototype a video game showcasing the concept in a pixelart game.'
 	];
 	let itemsMethodHeadings = [
-		'Worst Possible Idea',
-		'Dot Voting',
-		'Video Prototyping',
-		'Code Prototyping'
+		'Worst Possible Idea:',
+		'Dot Voting:',
+		'Video Prototyping:',
+		'Code Prototyping:'
 	];
 
 	let itemsTools = [
@@ -30,10 +30,13 @@
 		'For the video prototype, and for the video editing of the second prototype.',
 		'A no-code game engine for creating 2D and 3D games without programming'
 	];
-	let itemsToolsHeadings = ['Figma', 'Video Editing Software', 'GDevelop 5'];
+	let itemsToolsHeadings = ['Figma:', 'Video Editing Software:', 'GDevelop 5:'];
 
-	let itemsTakeawaysHeadings = ['TBD'];
-	let itemsTakeaways = ['Will be added as soon as I have received a feedback'];
+	let itemsTakeawaysHeadings = ['Rapid Prototyping:', 'TBD:'];
+	let itemsTakeaways = [
+		'This project was part of the UX Design and Evaluation class at KTH (DM2630), which includes multiple design challenges with companies. This was the second challenge we had and as time was so short, I think it really helped me learn how to let go of finding the perfect idea and solution and rather focusing on getting something out there quickly to test and iterate on. ',
+		'Will be added as soon as I have received a feedback'
+	];
 	const title = 'Forget Me Not Box Project Page';
 </script>
 
