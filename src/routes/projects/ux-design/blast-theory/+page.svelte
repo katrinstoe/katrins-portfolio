@@ -35,7 +35,7 @@
 	let itemsTakeawaysHeadings = ['Rapid Prototyping:', 'No-Code Tools:'];
 	let itemsTakeaways = [
 		'This project was part of the UX Design and Evaluation class at KTH (DM2630), which includes multiple design challenges with companies. This was the second challenge we had and as time was so short, I think it really helped me learn how to let go of finding the perfect idea and solution and rather focusing on getting something out there quickly to test and iterate on. ',
-		'This was my first time using no-code tools for game development. I was suprised how quickly I could develop a game which was super rewarding and fun, but it also did have some of the similar bugs that would occur when actually coding so it was still a bit challenging to use at times especially as I added more complex features like the speech-to-text, etc.'
+		'This was my first time using no-code tools for game development. I was suprised how quickly I could develop a game which was super rewarding and fun, but it also did have some of the similar bugs that would occur when actually coding so it was still a bit challenging to use at times especially as I added more complex features like the speech-to-text or the music.'
 	];
 	const title = 'Forget Me Not Box Project Page';
 </script>
@@ -97,7 +97,7 @@
 		</p>
 		<UnorderedList items={itemsMethod} headings={itemsMethodHeadings}></UnorderedList>
 
-		<p>The first Video Prototype</p>
+		<p class="pt-4 font-bold">The first Video Prototype:</p>
 		<div class="flex items-center justify-center py-8">
 			<Video src="https://www.youtube.com/watch?v=30RogyIj5dI" />
 		</div>
@@ -113,10 +113,9 @@
 		<p>
 			We initially started by individually browsing through Blast Theories projects and each picking
 			3 favourites. For each of our favorites we gave a little summary on the Figjam board and
-			summarized what we thought the intended change on the user was that we liked so much about
-			that particular project. Out of our 12 favorites we then dot voted on the one's where we liked
-			the change on the user most, each team member got 4 votes. Two project were popular among our
-			team,
+			summarized what we thought the intended change on the user was. We discussed the ideas, and
+			then dot voted out of our 12 favorites the one's where we liked the change on the user most,
+			each team member got 4 votes. Two project were popular among our team,
 			<a
 				class="project-link"
 				href="https://www.blasttheory.co.uk/projects/route-1236/"
@@ -142,20 +141,21 @@
 			and what is fictional was the biggest part, besides the power of the view or participant to
 			fictionalitze their surroundings and to experience things which are not really there. We also
 			thought about the parallels to today's world with AI and the parallels that could be drawn
-			there. A How Might We Statement was created: How Might We make viewers aware of the boundaries
+			there. A <b>How Might We Statement</b> was created: How Might We make viewers aware of the boundaries
 			of their perception of reality?
 		</p>
 		<br />
 
 		<p>
-			During the ideation we followed the Worst possible Idea method and after dot voted on our
-			favorite ideas again. We had many ideas with AI usage, as we drew that parallel earlier but
-			decided to go with an idea we all liked, which was creating a video came. Specifically a game,
-			where the camera is fixed and you are able to interact and talk to the characters, but their
-			lives continue once they walk of the screen. This was meant to highlight those boundaries of
-			the in-game reality again and create an uncanny feeling for the player as they reference him
-			in their storyline aswell. Afterwards we came up with a script and video prototyped a first
-			version of our game by using a green screen function of one of our teammates' macbook.
+			During the ideation we followed the <b>Worst possible Idea</b> method and after dot voted on
+			our favorite ideas again. We had many ideas with AI usage, as we drew that parallel earlier,
+			but decided to go with an idea we all liked, which was creating a video game. Specifically a
+			game, where the camera is fixed and you are able to interact and talk to the characters, but
+			their lives continue once they walk of the screen. This was meant to highlight those
+			boundaries of the in-game reality again and create an uncanny feeling for the player as they
+			reference him in their storyline aswell. Afterwards we came up with a script and
+			<b>video prototyped</b> a first version of our game by using a green screen function of one of
+			our teammates' macbook.
 		</p>
 
 		<div class="flex justify-center">
@@ -167,16 +167,17 @@
 		</div>
 		<br />
 		<p>
-			In my subsequent work I took our idea and further developed it into a playable pixelart game.
-			I used a no-code website to prototype the game a quickly as possible, so that if it's not what
-			I was hoping it to be, I wouldn't have lost a lot of time on the development. GDevelop 5 was
-			useful for this and I was able to create a little stationary game wwith some characters
-			randomly moving around and of screen. When the characters are clicked they will show a little
-			conversation snippet that seems out of context and alludes to the characters having
-			conversations and events happening of screen. I reused and extended our original script
-			snippets for this and added a few more prompts to have less repetition when playing for
-			longer. I also tried making the game eerie by adding some background music and a foggy
-			overlay.
+			In my subsequent work I took our idea and further developed it into a <b
+				>playable pixelart game</b
+			>. I used a <b>no-code website</b> to prototype the game a quickly as possible, so that if it's
+			not what I was hoping it to be, I wouldn't have lost a lot of time on the development. GDevelop
+			5 was useful for this and I was able to create a little stationary game with some characters randomly
+			moving around and of screen. When the characters are clicked they will show a little conversation
+			snippet that seems out of context and alludes to the characters having conversations and events
+			happening off-screen. I reused and extended our original script snippets for this and added a few
+			more prompts to have less repetition when playing for longer. I also tried making the game eerie
+			by adding some background music and a foggy overlay and using Google text-to-speech voices to make
+			the characters seem similar but different and also a bit scary sounding.
 		</p>
 	</ProjectSectionWrapper>
 
@@ -204,7 +205,7 @@
 		</div>
 	</ProjectSectionWrapper>
 	<ProjectSectionWrapper>
-		<SubsectionHeader>The group work summary presentation can be seen here:</SubsectionHeader>
+		<SubsectionHeader>Notes on the Resources I used:</SubsectionHeader>
 		<p>
 			The audio for the game is Empty Echo by Silicon Transmitter, found on <a
 				class="project-link"
