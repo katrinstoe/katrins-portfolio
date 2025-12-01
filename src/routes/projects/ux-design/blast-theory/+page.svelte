@@ -61,15 +61,27 @@
 				href="https://www.blasttheory.co.uk/projects/trucold/"
 				target="_blank"
 				aria-label="External Link to Blast Theory Page on Trucold project.">project</a
-			> is a video exploring the gaps a fixed camera recording creates between what is fictional and
-			what is real. In our group work we were inspired by these boundaries of the viewers perception
-			of reality and created a video game prototype that plays with these ideas. The game plays with
-			the uncannyness of stories happening outside of the video game camera view and how these impact
-			the characters relation to the player. The first version was a video prototype shot amongst our
-			group, the redesign is a coded more pixelart style game that users can play interactively.
+			>
+			is a video exploring the gaps a fixed camera recording creates between what is fictional and what
+			is real. In our group work we were inspired by these boundaries of the viewers perception of reality
+			and created a video game prototype that plays with these ideas. The game plays with the uncannyness
+			of stories happening outside of the video game camera view and how these impact the characters
+			relation to the player. The first version was a video prototype shot amongst our group, the redesign
+			is a coded more pixelart style game that users can play interactively. The game can be played
+			<a
+				class="project-link"
+				target="_blank"
+				href="https://gd.games/games/c3ca4d5f-d2ac-4048-9a71-d4e4a1b34965"
+				aria-label="External Link to Video game, the game is not accessible as as the position of the walking characters is not transcribed and the text so far is not read aloud."
+				>here</a
+			>.
 		</p></ProjectSectionWrapper
 	>
 	<ProjectSectionWrapper>
+		<p>
+			The video shows an outdated version of the prototype, I will update it once the final
+			prototype has been created.
+		</p>
 		<div class="flex items-center justify-center py-8">
 			<Video src="https://www.youtube.com/watch?v=9jfP_rDgHqQ&feature=youtu.be" />
 		</div>
