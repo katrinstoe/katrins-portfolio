@@ -58,7 +58,9 @@
 		<p>
 			Blast Theories TRUCOLD <a
 				class="project-link"
-				href="https://www.blasttheory.co.uk/projects/trucold/">project</a
+				href="https://www.blasttheory.co.uk/projects/trucold/"
+				target="_blank"
+				aria-label="External Link to Blast Theory Page on Trucold project.">project</a
 			> is a video exploring the gaps a fixed camera recording creates between what is fictional and
 			what is real. In our group work we were inspired by these boundaries of the viewers perception
 			of reality and created a video game prototype that plays with these ideas. The game plays with
@@ -110,14 +112,16 @@
 			<a
 				class="project-link"
 				href="https://www.blasttheory.co.uk/projects/route-1236/"
-				aria-label="Link to Blast Theory Page on Route 12:36 project."
+				aria-label="External Link to Blast Theory Page on Route 12:36 project."
+				target="_blank"
 				>Route 12:36
 			</a>
 			and
 			<a
 				class="project-link"
 				href="https://www.blasttheory.co.uk/projects/trucold/"
-				aria-label="Link to Blast Theory Page on Route 12:36 project.">TRUCOLD</a
+				target="_blank"
+				aria-label="External Link to Blast Theory Page on Route 12:36 project.">TRUCOLD</a
 			>. For both ideas we liked the eerie, scarie factor, perhaps because it was almost Halloween.
 			After discussing it a bit more we decided to go with TRUCOLD as our inspiration, as we felt we
 			had a real chance to take the idea into something new by making it digital, as the Route 12:36
@@ -190,6 +194,17 @@
 				title="PDF Presentation Group Work Trucold"
 			/>
 		</div>
+	</ProjectSectionWrapper>
+	<ProjectSectionWrapper>
+		<SubsectionHeader>The group work summary presentation can be seen here:</SubsectionHeader>
+		<p>
+			The audio for the game is Empty Echo by Silicon Transmitter, found on <a
+				class="project-link"
+				href="https://freemusicarchive.org/music/Silicon_Transmitter/broken-pulse/empty-echo/"
+				target="_blank"
+				aria-label="External Link to Freemusic archive song page.">freemusicarchive.org</a
+			>, licence type CC BY-NC-SA.
+		</p>
 	</ProjectSectionWrapper>
 </DetailProjectLayout>
 
