@@ -4,6 +4,7 @@
 	import DisneyPrincess from '$lib/sections/projects/DisneyPrincess.svelte';
 	import SLAccessibility from '$lib/sections/projects/SLAccessibility.svelte';
 	import ScoutsKit from '$lib/sections/projects/ScoutsKit.svelte';
+	import BlastTheoryGame from '$lib/sections/projects/BlastTheoryGame.svelte';
 </script>
 
 <section class="pt-12">
@@ -25,7 +26,7 @@
 			style="color: blue;">Link to Projects Page</a
 		>
 	</Wrapper>
+	<BlastTheoryGame />
 	<ScoutsKit />
 	<DisneyPrincess />
-	<SLAccessibility />
 </section>

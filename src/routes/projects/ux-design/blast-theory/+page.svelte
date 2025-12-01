@@ -53,7 +53,6 @@
 	colorHeader="bg-crazyorange/90"
 >
 	<ProjectSectionWrapper>
-		<!--		TODO: Decide if also put on main page-->
 		<SubsectionHeader>Summary</SubsectionHeader>
 		<p>
 			Blast Theories TRUCOLD <a
