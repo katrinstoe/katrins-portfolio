@@ -2,6 +2,7 @@
 	import SectionHeader from '$lib/components/SectionHeader.svelte';
 	import HeroShapes from '$lib/components/shapes/HeroShapes.svelte';
 	import ProjectCategories from '$lib/sections/projectCategories/ProjectCategories.svelte';
+	import Card from '$lib/components/Card.svelte';
 
 	let projectIntro =
 		'The project page contains a collection of projects that I have completed during my studies at university or during internships at a company. These projects cover a wide range of fields, including UX research, programming, and design. In each section, you can find examples of my work and see how I have applied my skills and knowledge to tackle a variety of challenges. Be sure to check them out!';
@@ -18,6 +19,16 @@
 				<p class="text-xl">{projectIntro}</p>
 
 				<ProjectCategories />
+
+				<div class="flex flex-wrap justify-center gap-4 pt-20">
+					<!-- UX Research Card -->
+					<Card
+						href={'/projects/archive/'}
+						title="Archive"
+						description="Older projects."
+						bgColor="bg-gray-100"
+					/>
+				</div>
 			</div>
 		</div>
 	</div>
