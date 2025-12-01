@@ -9,7 +9,7 @@
 
 	let items = [
 		'Ideation and concept development for the game mechanics and narrative.',
-		'Prototyping the game using pixel art and coding tools.'
+		'Prototyping the game using pixel art and no-coding tools.'
 	];
 	let itemsHeaders = ['Concept development:', 'Prototyping:'];
 	let itemsMethod = [
@@ -32,10 +32,10 @@
 	];
 	let itemsToolsHeadings = ['Figma:', 'Video Editing Software:', 'GDevelop 5:'];
 
-	let itemsTakeawaysHeadings = ['Rapid Prototyping:', 'TBD:'];
+	let itemsTakeawaysHeadings = ['Rapid Prototyping:', 'No-Code Tools:'];
 	let itemsTakeaways = [
 		'This project was part of the UX Design and Evaluation class at KTH (DM2630), which includes multiple design challenges with companies. This was the second challenge we had and as time was so short, I think it really helped me learn how to let go of finding the perfect idea and solution and rather focusing on getting something out there quickly to test and iterate on. ',
-		'Will be added as soon as I have received a feedback'
+		'This was my first time using no-code tools for game development. I was suprised how quickly I could develop a game which was super rewarding and fun, but it also did have some of the similar bugs that would occur when actually coding so it was still a bit challenging to use at times especially as I added more complex features like the speech-to-text, etc.'
 	];
 	const title = 'Forget Me Not Box Project Page';
 </script>
@@ -78,12 +78,8 @@
 		</p></ProjectSectionWrapper
 	>
 	<ProjectSectionWrapper>
-		<p>
-			The video shows an outdated version of the prototype, I will update it once the final
-			prototype has been created.
-		</p>
 		<div class="flex items-center justify-center py-8">
-			<Video src="https://www.youtube.com/watch?v=9jfP_rDgHqQ&feature=youtu.be" />
+			<Video src="https://www.youtube.com/watch?v=oA1m2YWh81E" />
 		</div>
 	</ProjectSectionWrapper>
 	<!-- Add an Audio component to display the project audio -->
@@ -189,7 +185,7 @@
 		<UnorderedList items={itemsTakeaways} headings={itemsTakeawaysHeadings} />
 		<div class="flex justify-center">
 			<Image
-				src="/imgs/Projects/BlastTheory/thumbnail.png"
+				src="/imgs/Projects/BlastTheory/screenshot_newerVersion.png"
 				alt="Interaction in Video Prototype by confirming the dialogue"
 				class="small-image mt-10 w-full rounded-lg sm:w-3/4 md:w-4/5 lg:w-4/5"
 			></Image>
