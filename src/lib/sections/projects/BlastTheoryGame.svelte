@@ -5,7 +5,7 @@
 <Project
 	divider="blue"
 	title="Blast Theory Game"
-	description="A UX Design challenge, taking the core concept of a Blast Theory project and taking our own digital spin on it."
+	description="This pixelart video game was created as a digital adaptation to the TRUCOLD Blast Theory project. The game explores themes around the boundaries of the players perception. It was created as part of the User Experience Design and Evaluation (DM2630 HT25) class at KTH."
 	year="2025"
 	buttonText="Design process"
 	path="/projects/ux-design/blast-theory"
