@@ -30,17 +30,17 @@
 	];
 
 	let itemsTakeAway = [
+		'A major takeaway for me was realizing how little our design accounted for the broader social context of women’s lived experiences. By normalizing the idea of photographing them, even unintentionally, it could legitimize unwanted photos. Even with two women on the team, the project felt so contained within our project bubble during development, that none of us recognized the wider implications. Interviewing only men reinforced that blind spot, and we missed how the prototype could put female employees at risk. This was quite shocking to me, and has led me to always try and consider the wider implications of my designs going forward.',
 		'Elements like LED cuffs and language indicators made staff more approachable.',
 		'Customers preferred direct engagement over purely digital solutions.',
-		'Testing highlighted the need for balancing functionality, usability, and emotional comfort.',
-		'After finishing our project and talking to our professors we realized that by having interviewed only men, we missed a design flaw for women. Many women might feel uncomfortable with men in a supermarket being allowed to take pictures of their backs. This is an important factor and will be a learning for the following projects to come.'
+		'Testing highlighted the need for balancing functionality, usability, and emotional comfort.'
 	];
 
 	let itemsTakeAwayHeaders = [
+		'Considering Female employees: ',
 		'Visual communication reduces barriers: ',
 		'Human interaction remains vital: ',
-		'Iterative refinement is essential: ',
-		'Importance of Testing an equally balanced user population: '
+		'Iterative refinement is essential: '
 	];
 
 	items = Array.isArray(items) ? items : [];
