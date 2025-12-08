@@ -46,7 +46,7 @@
 <DetailProjectLayout
 	imgSrc="/imgs/Projects/BlastTheory/thumbnail.png"
 	altText="Blast Theory Game Screenshot"
-	duration="27. October- 01. December 2025 (~ 5 weeks)"
+	duration="27. October- 08. December 2025 (~ 6 weeks)"
 	contributors="Sara Norman, Weicheng Yuan, Jing Xu"
 	opacity="opacity-50"
 	sectionTitle="Reinterpreting Blast Theory's TRUCOLD as an Interactive Game"
@@ -62,7 +62,7 @@
 				aria-label="External Link to Blast Theory Page on Trucold project.">project</a
 			>
 			that explores the gaps a fixed camera creates between what is fictional and what is real. The work
-			highlights how much meaning viewers produce themselves when parts of an event remain outside their
+			highlights how much meaning viewers create themselves when parts of an event remain outside their
 			field of view.
 		</p>
 		<p>
@@ -72,9 +72,9 @@
 			visible frame, forcing players to interpret what they cannot see.
 		</p>
 		<p>
-			The game plays with the uncanniness of stories unfolding beyond the camera view and how these
-			unseen events affect the relationship between the characters and the player. What emerges is a
-			world where certainty is impossible, and truth is always partial.
+			The game plays with the uncanniness of stories unfolding outside of the camera view and how
+			these unseen events affect the relationship between the characters and the player. This
+			creates a world where certainty is impossible, and truth is always partial.
 		</p>
 		<p>
 			The first version of the project was a video prototype, shot among our group members. In my
@@ -106,32 +106,34 @@
 			enhances that change. Our group selected TRUCOLD by Blast Theory as our main reference.
 			TRUCOLD is a video-based work that uses fixed camera recordings of empty urban spaces to blur
 			the boundary between what is real, fictional, or imagined. By withholding narrative context,
-			the work encourages viewers to project meaning onto what they see—and crucially, what they do
-			not see.
+			the work encourages viewers to project meaning onto what they see, and especially also to what
+			they they do not see.
 		</p>
 	</ProjectSectionWrapper>
 
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Intended Change in the User</SubsectionHeader>
+		<p></p>
 		<p>
-			The central change TRUCOLD creates in its audience lies in an increased awareness of how
-			perception is shaped by absence. Viewers are made aware of how easily they fictionalise events
-			when information is incomplete, and how heavily they rely on perspectives that appear neutral
-			or objective.
+			Rather than explicitly telling the viewer what to think, TRUCOLD works by creating an
+			atmosphere of uncertainty. Through fixed camera views and a lack of narrative context, the
+			work leaves gaps that viewers naturally start to fill in themselves, often without being fully
+			aware of it.
 		</p>
 		<p>
-			The work highlights a fundamental tension: although the camera seems to offer direct access to
-			reality, it always presents a limited view. Meaning is therefore constructed by the viewer.
+			The camera appears neutral and objective, but consistently shows only a partial view of what
+			is happening. This creates a tension where meaning is not clearly given, but gradually formed
+			through what is missing as much as through what is shown.
 		</p>
-		<p>Our goal was to preserve this idea and shift it in a digital, interactive format.</p>
+		<p>Our goal was to keep this quality and tranlate it into an interactive, digital format.</p>
 	</ProjectSectionWrapper>
 
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Translating TRUCOLD into an Online Game</SubsectionHeader>
 		<p>
 			To shift TRUCOLD into an even more digital space, we chose to translate its core idea into a
-			video game. We wanted to to see if shift the role of the user from passive observer to active
-			participant, can preserve the uncertainty.
+			video game. We wanted to to see if shifting the role of the user from passive observer to
+			active participant, can preserve the uncertainty.
 		</p>
 		<p>
 			We designed a game with a fixed camera that the player cannot control. Characters enter and
@@ -142,7 +144,7 @@
 		<p>
 			The design preserves TRUCOLD's use of absence and simultaneously reinforces it through
 			gameplay: the player must understand the world based on incomplete, subjective information,
-			knowing that important events may be taking place elsewhere.
+			knowing that important events may be taking place outside of their view.
 		</p>
 	</ProjectSectionWrapper>
 
@@ -156,9 +158,9 @@
 		<p>
 			As a group, we initially explored this idea using a short video prototype created with green
 			screen techniques. Viewers could simulate interaction by selecting dialogue options while
-			events continued to unfold ‘outside’ the frame. This prototype helped us test the emotional
-			impact of narrative gaps. It showed that the concept worked, which is why I chose to further
-			develop it to an interactive format.
+			events continued to unfold outside the frame. This prototype helped us test if the concept
+			transition into a game worked, and we felt it did. This is why I chose to further develop it
+			to an interactive format.
 		</p>
 		<p class="pt-4 font-bold">The first Video Prototype:</p>
 		<div class="flex items-center justify-center py-8">
@@ -405,7 +407,8 @@
 	}
 
 	.project-link {
-		color: #719193;
+		/*color: #719193;*/
+		color: #f7a343;
 		background-color: transparent;
 		text-decoration: none;
 	}
