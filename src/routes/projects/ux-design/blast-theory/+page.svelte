@@ -167,14 +167,12 @@
 			<Video src="https://www.youtube.com/watch?v=30RogyIj5dI" />
 		</div>
 	</ProjectSectionWrapper>
-
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Individual Development: Interactive Game Prototype</SubsectionHeader>
 		<p>
-			In my individual work, I significantly expanded the group project by developing a fully
-			playable pixel art game using the no-code engine GDevelop 5. Choosing a no-code tool allowed
-			for rapid iteration and experimentation without having to commit too much to technical
-			complexity.
+			In my individual work, I expanded the group project by developing a fully playable pixel art
+			game using the no-code engine GDevelop 5. Choosing a no-code tool allowed for rapid iteration
+			and experimentation.
 		</p>
 		<p>
 			In the game, characters move randomly in and out of the camera frame. When clicked, they
@@ -188,9 +186,9 @@
 		</p>
 		<p>
 			The atmosphere plays an important role in amplifying this uncertainty. Background music, a
-			foggy overlay, and text-to-speech voices were deliberately chosen to convey a slightly eerie
-			feeling. The voices are similar but not identical, contributing to a sense of coherence that
-			is never entirely trustworthy.
+			foggy overlay, and text-to-speech voices were deliberately chosen to create a slightly eerie
+			feeling. The voices are similar but not identical using text-to-speech, contributing to a
+			sense of coherence that is never entirely trustworthy.
 		</p>
 		<div class="flex justify-center">
 			<Image
@@ -205,14 +203,19 @@
 		<SubsectionHeader>Extension: AI as an Unreliable Witness</SubsectionHeader>
 		<p>
 			In a later iteration, I explored an extension of the original concept by introducing an
-			AI-inspired reconstruction layer. We had the idea of using AI to visualize the concept at the
-			beginning to add a current critique to the design, and after my Design critique I wanted to
-			enhance the gameplay a bit more, to make the use of the game play mechanics make more sense.
+			reconstruction layer for the player to get context for the stories he is being told. The
+			project group had the idea of using AI to visualize the concept at the beginning of the
+			project to add a current critique to the design. After my Design critique I wanted to enhance
+			the gameplay a bit more, to make the use of the game play mechanics make more sense. So I
+			decided to use our original idea of incorporating AI to add another layer or unreliability by
+			letting AI images recall what happened behind the scenes and provide context.
 		</p>
 		<p>
 			At any moment, players can choose to see what the system claims happened outside the camera’s
 			view. These reconstructions show AI-generated images that depict unseen conversations or
-			events.
+			events. Some of them give context to the player, others also describe unrelated stories where
+			you feel like you are introduding private conversations, some look eerie and some like they
+			could actually be snippets from outside of the screen.
 		</p>
 		<p>
 			It is important to note that these reconstructions are not consistent but randomized. The
@@ -258,12 +261,12 @@
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Reflection</SubsectionHeader>
 		<p>
-			This project demonstrates how uncertainty can be shaped rather than eliminated. By combining
-			spatial constraints, narrative gaps and AI-assisted reconstruction, the game makes players
-			aware of how their perception is shaped by what is shown, what remains hidden and what is
-			interpreted for them. Rather than offering a solution, the project invites players to engage
-			with ambiguity, and to reflect on how quickly they outsource their judgement to systems that
-			appear objective but are anything but.
+			This project shows how uncertainty can be shaped rather than eliminated. By combining spatial
+			constraints, narrative gaps and AI-assisted reconstruction, the game makes players aware of
+			how their perception is shaped by what is shown, what remains hidden and what is interpreted
+			for them. Rather than offering a solution, the project invites players to engage with
+			ambiguity, and to reflect on how quickly they outsource their judgement to systems that appear
+			objective but are anything but that.
 		</p>
 	</ProjectSectionWrapper>
 
