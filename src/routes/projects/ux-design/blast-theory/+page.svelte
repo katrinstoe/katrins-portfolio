@@ -34,8 +34,8 @@
 
 	let itemsTakeawaysHeadings = ['Rapid Prototyping:', 'No-Code Tools:'];
 	let itemsTakeaways = [
-		'This project was part of the UX Design and Evaluation class at KTH (DM2630), which includes multiple design challenges with companies. This was the second challenge we had and as time was so short, I think it really helped me learn how to let go of finding the perfect idea and solution and rather focusing on getting something out there quickly to test and iterate on. ',
-		'This was my first time using no-code tools for game development. I was suprised how quickly I could develop a game which was super rewarding and fun, but it also did have some of the similar bugs that would occur when actually coding so it was still a bit challenging to use at times especially as I added more complex features like the speech-to-text or the music.'
+		'During the duration of the UX Design and Evaluation class we took part in multiple design challenges with companies. This was the second challenge we had and as time was so short, we really learned to go with the first good idea we had and rather focused on getting something out there quickly to test and iterate on, instead of ideating for a long time to find a perfect solution that might even not exist. This made the process a lot quicker and more flexible.',
+		'This was my first time using no-code tools for game development. Even though no coding was required, I felt like a bit of coding knowledge was definitely helpful in using the engine more efficiently and for solving bugs. I was surprised how quickly I could develop a game though, which was very rewarding! So I felt like it was a good tool to use when wanting to prototype a game and its gameplay quickly before committing to the code and project too much.'
 	];
 	const title = "Reinterpreting Blast Theory's TRUCOLD as an Interactive Game Page";
 </script>
@@ -270,11 +270,11 @@
 		</p>
 	</ProjectSectionWrapper>
 
-	<ProjectSectionWrapper>
-		<SubsectionHeader>Contributions</SubsectionHeader>
-		<p class="mb-5">I was responsible for:</p>
-		<UnorderedList {items} headings={itemsHeaders}></UnorderedList>
-	</ProjectSectionWrapper>
+	<!--	<ProjectSectionWrapper>-->
+	<!--		<SubsectionHeader>Contributions</SubsectionHeader>-->
+	<!--		<p class="mb-5">I was responsible for:</p>-->
+	<!--		<UnorderedList {items} headings={itemsHeaders}></UnorderedList>-->
+	<!--	</ProjectSectionWrapper>-->
 
 	<!--	<ProjectSectionWrapper>-->
 	<!--		<SubsectionHeader>Methods & Approach</SubsectionHeader>-->
