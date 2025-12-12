@@ -27,15 +27,15 @@
 
 	let itemsTools = [
 		'For the ideation',
-		'For the video prototype, and for the video editing of the second prototype.',
+		'For the video prototype, and for the demo editing of the second prototype.',
 		'A no-code game engine for creating 2D and 3D games without programming'
 	];
 	let itemsToolsHeadings = ['Figma:', 'Video Editing Software:', 'GDevelop 5:'];
 
 	let itemsTakeawaysHeadings = ['Rapid Prototyping:', 'No-Code Tools:'];
 	let itemsTakeaways = [
-		'During the duration of the UX Design and Evaluation class we took part in multiple design challenges with companies. This was the second challenge we had and as time was so short, we really learned to go with the first good idea we had and rather focused on getting something out there quickly to test and iterate on, instead of ideating for a long time to find a perfect solution that might even not exist. This made the process a lot quicker and more flexible.',
-		'This was my first time using no-code tools for game development. Even though no coding was required, I felt like a bit of coding knowledge was definitely helpful in using the engine more efficiently and for solving bugs. I was surprised how quickly I could develop a game though, which was very rewarding! So I felt like it was a good tool to use when wanting to prototype a game and its gameplay quickly before committing to the code and project too much.'
+		'During the duration of the UX Design and Evaluation class we took part in multiple design challenges with companies. This was the second challenge we had and as time was so short, we really learned to focus on the first good idea we came up with and developing that quickly to test and iterate on. This made the process a lot quicker and more flexible and the later individual continuation of the project gave me time to develop the idea in more detail.',
+		'This was my first time using no-code tools for game development. Even though no programming knowledge was required, I felt that a little programming knowledge was definitely helpful in using the engine more efficiently and debugging. I was surprised at how quickly I could develop a game, which was very rewarding! Therefore, I found it to be a good tool for quickly creating a prototype of a game and its gameplay before committing too much to the code and the project.'
 	];
 	const title = "Reinterpreting Blast Theory's TRUCOLD as an Interactive Game Page";
 </script>
@@ -62,24 +62,24 @@
 				aria-label="External Link to Blast Theory Page on Trucold project.">project</a
 			>
 			that explores the gaps a fixed camera creates between what is fictional and what is real. The work
-			highlights how much meaning viewers create themselves when parts of an event remain outside their
-			field of view.
+			highlights how much meaning viewers create themselves when parts of what is happening remain outside
+			their field of view.
 		</p>
 		<p>
 			In our group project, we were inspired by these boundaries of the viewer’s perception of
-			reality and translated them into an interactive video game prototype. Rather than presenting a
+			reality and translated them into an interactive video game prototype. Rather than showing a
 			full narrative, the game is designed around absence: events consciously happen outside the
 			visible frame, forcing players to interpret what they cannot see.
 		</p>
 		<p>
 			The game plays with the uncanniness of stories unfolding outside of the camera view and how
 			these unseen events affect the relationship between the characters and the player. This
-			creates a world where certainty is impossible, and truth is always partial.
+			creates a world in which certainty seems impossible, and truth is always partial.
 		</p>
 		<p>
 			The first version of the project was a video prototype, shot among our group members. In my
-			redesign, the project was further developed into a coded, pixel-art style game that users can
-			play interactively. The game can be played
+			redesign, the project was further developed into a pixel-art style game that users can play
+			interactively. The game can be played
 			<a
 				class="project-link"
 				target="_blank"
@@ -91,6 +91,7 @@
 	>
 
 	<ProjectSectionWrapper>
+		<SubsectionHeader>TRUCOLD game demo</SubsectionHeader>
 		<div class="flex items-center justify-center py-8">
 			<Video src="https://www.youtube.com/watch?v=FWFmrzh_d9o" />
 		</div>
@@ -103,11 +104,15 @@
 			This project was part of the UX Design and Evaluation course at KTH (DM2630). The design
 			challenge was to select a Blast Theory project, identify one way in which it creates change in
 			the user or participant, and then design an exclusively online version that preserves or
-			enhances that change. Our group selected TRUCOLD by Blast Theory as our main reference.
-			TRUCOLD is a video-based work that uses fixed camera recordings of empty urban spaces to blur
-			the boundary between what is real, fictional, or imagined. By withholding narrative context,
-			the work encourages viewers to project meaning onto what they see, and especially also to what
-			they they do not see.
+			enhances that change. Our group selected <a
+				class="project-link"
+				href="https://www.blasttheory.co.uk/projects/trucold/"
+				target="_blank"
+				aria-label="External Link to Blast Theory Page on Trucold project.">TRUCOLD</a
+			> by Blast Theory as our main reference. TRUCOLD is a video-based work that uses fixed cameras
+			to capture images of empty urban spaces, blurring the boundaries between reality, fiction and imagination.
+			The abscence of narrative context, encourages viewers to project meaning onto what they see and
+			what they they do not see.
 		</p>
 	</ProjectSectionWrapper>
 
@@ -122,10 +127,10 @@
 		</p>
 		<p>
 			The camera appears neutral and objective, but consistently shows only a partial view of what
-			is happening. This creates a tension where meaning is not clearly given, but gradually formed
-			through what is missing as much as through what is shown.
+			is happening. This creates a tension where narratives might be fictionalized and perception is
+			controlled by the creators of the video.
 		</p>
-		<p>Our goal was to keep this quality and tranlate it into an interactive, digital format.</p>
+		<p>Our goal was to keep this quality and translate it into an interactive, digital format.</p>
 	</ProjectSectionWrapper>
 
 	<ProjectSectionWrapper>
@@ -142,9 +147,9 @@
 			happens in the game world.
 		</p>
 		<p>
-			The design preserves TRUCOLD's use of absence and simultaneously reinforces it through
-			gameplay: the player must understand the world based on incomplete, subjective information,
-			knowing that important events may be taking place outside of their view.
+			The design preserves TRUCOLD's use of absence and at the same time reinforces it through
+			gameplay: the player is trying to understand the world based on incomplete, subjective
+			information, knowing that important events may be taking place outside of their view.
 		</p>
 	</ProjectSectionWrapper>
 
@@ -171,24 +176,34 @@
 		<SubsectionHeader>Individual Development: Interactive Game Prototype</SubsectionHeader>
 		<p>
 			In my individual work, I expanded the group project by developing a fully playable pixel art
-			game using the no-code engine GDevelop 5. Choosing a no-code tool allowed for rapid iteration
-			and experimentation.
+			<a
+				class="project-link"
+				target="_blank"
+				href="https://gd.games/games/c3ca4d5f-d2ac-4048-9a71-d4e4a1b34965"
+				aria-label="External Link to Video game, the game is not accessible as as the position of the walking characters is not transcribed and the text so far is not read aloud."
+				>game</a
+			> using the no-code engine GDevelop 5. Choosing a no-code tool allowed for rapid iteration and
+			development.
 		</p>
+		<br />
 		<p>
 			In the game, characters move randomly in and out of the camera frame. When clicked, they
 			present short dialogue snippets that often feel out of context or incomplete. These fragments
-			hint at relationships, conflicts, or shared histories that the player never fully witnesses.
+			hint at relationships, conflicts, or shared histories happening off screen that the player
+			never fully witnesses.
 		</p>
+		<br />
 		<p>
-			Instead than creating a cohesive storyline, these interactions create ambiguity. Players are
+			Instead of creating a cohesive storyline, these interactions create ambiguity. Players are
 			left to question what actually happened, whose account is reliable, and how much of the story
 			they are imagining themselves.
 		</p>
 		<p>
-			The atmosphere plays an important role in amplifying this uncertainty. Background music, a
+			The atmosphere plays an important role in amplifying this uncertainty. The background music, a
 			foggy overlay, and text-to-speech voices were deliberately chosen to create a slightly eerie
 			feeling. The voices are similar but not identical using text-to-speech, contributing to a
-			sense of coherence that is never entirely trustworthy.
+			sense of coherence that is never entirely trustworthy and makes it even harder to tell the
+			stories apart.
 		</p>
 		<div class="flex justify-center">
 			<Image
@@ -202,14 +217,16 @@
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Extension: AI as an Unreliable Witness</SubsectionHeader>
 		<p>
-			In a later iteration, I explored an extension of the original concept by introducing an
-			reconstruction layer for the player to get context for the stories he is being told. The
-			project group had the idea of using AI to visualize the concept at the beginning of the
-			project to add a current critique to the design. After my Design critique I wanted to enhance
-			the gameplay a bit more, to make the use of the game play mechanics make more sense. So I
-			decided to use our original idea of incorporating AI to add another layer or unreliability by
-			letting AI images recall what happened behind the scenes and provide context.
+			In a later iteration, I expanded the concept by adding an optional AI-generated
+			“reconstruction layer” that lets the player see imagined versions of what might have happened
+			off-screen. This came out of feedback during critique, where it became clear that players
+			wanted the gameplay to be more exciting. During my group's original ideation, we had already
+			discussed using AI as part of the TRUCOLD adaptation, especially as a way to comment on how
+			current generative systems confidently invent details. So I decided to use this idea of
+			incorporating AI to add another layer of unreliability by having AI images "remember" what
+			happened behind the scenes and thereby providing unreliable context.
 		</p>
+		<br />
 		<p>
 			At any moment, players can choose to see what the system claims happened outside the camera’s
 			view. These reconstructions show AI-generated images that depict unseen conversations or
@@ -218,20 +235,24 @@
 			could actually be snippets from outside of the screen.
 		</p>
 		<p>
-			It is important to note that these reconstructions are not consistent but randomized. The
-			system may present a different interpretation of the same unseen moment each time. The player
-			has no way of verifying which version, if any, is correct.
+			These reconstructions are not consistent but randomized. The system may present a different
+			interpretation of the same unseen moment each time. The player has no way of verifying which
+			version, if any, is correct.
 		</p>
+		<br />
 		<p>
-			Instead of eliminating uncertainty, AI becomes an unreliable witness. Although it appears
-			authoritative, it actively alters perception by confidently filling gaps with plausible but
-			unverifiable narratives. This reflects general concerns about how generative systems influence
-			memory, truth and interpretation when direct experience is limited.
+			Instead of eliminating uncertainty, AI becomes an unreliable witness. It presents its outputs
+			with confidence, yet what it generates may be only loosely connected to what actually
+			happened. By filling in the gaps with images that look real but cannot be verified, the system
+			subtly alters how players interpret the scene. This reflects broader concerns about how
+			generative AI can shape memory, trust, and meaning, especially when it reconstructs events in
+			ways that feel believable, but may not be accurate.
 		</p>
+		<br />
 		<p>
 			For practical reasons, the current prototype uses pre-generated images instead of live AI
-			generation. This decision was made deliberately, as the idea was to prototype the concept, and
-			generating them only once makes it a bit more sustainable.
+			generation. This decision was made deliberately, as it was sufficient to showcase the concept,
+			and generating them only once makes it slightly more sustainable.
 		</p>
 		<div class="flex justify-center">
 			<Image
@@ -245,28 +266,22 @@
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Design Decisions Informed by Theory</SubsectionHeader>
 		<p>
-			The project applies concepts from the course discussion on stochastic and agent-based AI
-			systems, in which designers no longer control the exact outcomes but instead design
-			interaction frameworks around uncertainty and variability. The fixed camera and the behaviour
-			of characters off-screen create an incomplete information space that reflects how users
-			interact with systems that show only partial views. Fragmented dialogues further shift the
-			meaning-making to the player. This logic is extended by the AI reconstruction layer, which
-			generates multiple plausible interpretations of unseen events rather than a single correct
-			representation. In line with the stochastic AI framework presented in the course, the system
-			acts as an active participant in shaping perception and illustrates how generative systems can
-			appear authoritarian while remaining unpredictable.
+			The project relates to the concept of stochastic UX as discussed in class, which was described
+			as designing for situations that can’t be fully predicted. The fixed camera and the characters
+			moving in and out of view already create this sense of partial information and
+			unpredictability. Players never see the full picture, and the experience changes depending on
+			what happens off-screen. The short, fragmented dialogue snippets reinforce this by shifting
+			the work of interpreting the story onto the player.
 		</p>
-	</ProjectSectionWrapper>
-
-	<ProjectSectionWrapper>
-		<SubsectionHeader>Reflection</SubsectionHeader>
+		<br />
 		<p>
-			This project shows how uncertainty can be shaped rather than eliminated. By combining spatial
-			constraints, narrative gaps and AI-assisted reconstruction, the game makes players aware of
-			how their perception is shaped by what is shown, what remains hidden and what is interpreted
-			for them. Rather than offering a solution, the project invites players to engage with
-			ambiguity, and to reflect on how quickly they outsource their judgement to systems that appear
-			objective but are anything but that.
+			The AI reconstruction layer adds another dimension that relates more to the idea of agentic AI
+			from the lecture, which are systems that take initiative in interpreting a situation rather
+			than simply responding. Instead of providing one definitive explanation, the AI produces
+			different visual “possibilities” of what might have happened outside the frame. This felt like
+			a good fit for the project, since it highlights how generative systems often present confident
+			results even when they’re ultimately guesses. Together, these elements let uncertainty become
+			part of the experience, rather than something to solve or hide.
 		</p>
 	</ProjectSectionWrapper>
 
@@ -289,11 +304,6 @@
 	<!--			<Video src="https://www.youtube.com/watch?v=30RogyIj5dI" />-->
 	<!--		</div>-->
 	<!--	</ProjectSectionWrapper>-->
-
-	<ProjectSectionWrapper>
-		<SubsectionHeader>Tools</SubsectionHeader>
-		<OrderedList items={itemsTools} headings={itemsToolsHeadings}></OrderedList>
-	</ProjectSectionWrapper>
 
 	<!--	<ProjectSectionWrapper>-->
 	<!--		<SubsectionHeader>The Design Process</SubsectionHeader>-->
@@ -378,6 +388,11 @@
 			></Image>
 		</div>
 	</ProjectSectionWrapper>
+
+	<!--	<ProjectSectionWrapper>-->
+	<!--		<SubsectionHeader>Tools</SubsectionHeader>-->
+	<!--		<OrderedList items={itemsTools} headings={itemsToolsHeadings}></OrderedList>-->
+	<!--	</ProjectSectionWrapper>-->
 
 	<ProjectSectionWrapper>
 		<SubsectionHeader>The group work summary presentation can be seen here:</SubsectionHeader>
