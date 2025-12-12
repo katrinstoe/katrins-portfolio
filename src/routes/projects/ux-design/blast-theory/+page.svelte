@@ -4,7 +4,6 @@
 	import ProjectSectionWrapper from '$lib/components/ProjectSectionWrapper.svelte';
 	import UnorderedList from '$lib/components/shapes/UnorderedList.svelte';
 	import Image from 'svimg/Image.svelte';
-	import OrderedList from '$lib/components/OrderedList.svelte';
 	import Video from '$lib/components/Video.svelte';
 
 	let items = [
