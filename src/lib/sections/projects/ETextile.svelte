@@ -8,7 +8,7 @@
 	description="This project was developed for the Media Technology & Interactive Design course at KTH. It features an interactive e-textile prototype meant for grocery store staff, designed to help customers feel comfortable to approach staff. The design process was done using the Double Diamond Process, resulting in a dynamic solution with LED signals, language displays, and proximity sensors. To explore the full design journey, click below."
 	year="2024"
 	buttonText="Project details"
-	path="/projects/ux-research/e-textile"
+	path="/projects/archive/e-textile"
 	colorButtonPath="/shapes/call-to-action-pink.svg"
 	altTextButton="See full project details for the E-Textile Prototype"
 >

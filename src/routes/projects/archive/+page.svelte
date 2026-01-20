@@ -5,6 +5,7 @@
 	import MuehleNimbits from '$lib/sections/projects/MuehleNimbits.svelte';
 	import PsychologyVideo from '$lib/sections/projects/PsychologyVideo.svelte';
 	import ForgetMeNotProject from '$lib/sections/projects/ForgetMeNotProject.svelte';
+	import ETextile from '$lib/sections/projects/ETextile.svelte';
 
 	const sectionTitle = 'All Old Projects';
 	const sectionDescription = `This section contains all older projects.`;
@@ -16,6 +17,7 @@
 </svelte:head>
 
 <ProjectOverviewLayout {sectionTitle} {sectionDescription}>
+	<ETextile />
 	<ExpoCompanion />
 	<MuehleNimbits />
 	<ForgetMeNotProject />
