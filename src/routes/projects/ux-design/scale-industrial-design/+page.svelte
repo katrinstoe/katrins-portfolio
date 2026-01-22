@@ -43,9 +43,8 @@
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Summary</SubsectionHeader>
 		<p>
-			This infographic was created to visually represent my Work-Life-Balance based on a randomly
-			selected week in 2022. The design uses color as a semantic tool, making different aspects of
-			my daily life immediately distinguishable.
+			The scale and packaging created withing the Industrial Design class at KTH (MF2023), was
+			inspired by the brand Alessi and created withing a double diamond design process.
 		</p>
 	</ProjectSectionWrapper>
 	<ProjectSectionWrapper>

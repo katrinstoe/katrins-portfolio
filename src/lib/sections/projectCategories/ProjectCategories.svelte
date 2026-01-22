@@ -20,14 +20,14 @@
 	<Card
 		href={pageToNavigateToUXResearch}
 		title="UX Research"
-		description="Tools & Skills: Double Diamond Process, Affinity Diagramming, Accessibility, Statistical Analysis."
+		description="Interaction Design, Accessibility, and classic UX research projects."
 		bgColor="bg-gray-100"
 	/>
 	<!-- Programming Card -->
 	<Card
 		href={pageToNavigateToProgramming}
 		title="Programming"
-		description="Tools & Skills: Unity, Web-Development, Java."
+		description="Programming projects in Web-Development and Unity."
 		bgColor="bg-gray-50"
 	/>
 
@@ -35,7 +35,7 @@
 	<Card
 		href={pageToNavigateToUXDesign}
 		title="UX Design"
-		description="Tools & Skills: Adobe Suite, Figma, Tangible Prototyping."
+		description="Web Design, Critical Design, Physical Prototyping projects."
 		bgColor="bg-gray-50"
 	/>
 </div>
