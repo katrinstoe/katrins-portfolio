@@ -5,6 +5,7 @@
 	import SLAccessibility from '$lib/sections/projects/SLAccessibility.svelte';
 	import ScoutsKit from '$lib/sections/projects/ScoutsKit.svelte';
 	import BlastTheoryGame from '$lib/sections/projects/BlastTheoryGame.svelte';
+	import VagMicrobiome from '$lib/sections/projects/VagMicrobiome.svelte';
 </script>
 
 <section class="pt-12">
@@ -27,6 +28,6 @@
 		>
 	</Wrapper>
 	<BlastTheoryGame />
+	<VagMicrobiome />
 	<ScoutsKit />
-	<DisneyPrincess />
 </section>
