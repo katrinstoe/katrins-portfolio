@@ -85,7 +85,7 @@
 		<UnorderedList {items} headings={itemsHeaders} />
 		<div class="flex justify-center">
 			<Image
-				src="/imgs/Projects/NimbitsMuehle/MuehleCookies.webp"
+				src="/imgs/Projects/NimbitsMuehle/MuehleCookies.png"
 				alt="Screenshot of Cookie Banner on Muehle on Desktop and Mobile"
 				class="small-image mt-10 rounded-lg md:w-4/5"
 			></Image>
@@ -93,7 +93,7 @@
 	</ProjectSectionWrapper>
 	<Wrapper>
 		<div class="flex items-center justify-center py-8">
-			<Video src="/imgs/Projects/NimbitsMuehle/recordingCookies.mkv" />
+			<Video src="https://www.youtube.com/watch?v=eDMNeBJ2OG0" />
 		</div>
 	</Wrapper>
 	<ProjectSectionWrapper>
