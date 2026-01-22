@@ -1,8 +1,6 @@
 <script lang="ts">
 	import Wrapper from '$lib/components/Wrapper.svelte';
 	import SectionHeader from '$lib/components/SectionHeader.svelte';
-	import DisneyPrincess from '$lib/sections/projects/DisneyPrincess.svelte';
-	import SLAccessibility from '$lib/sections/projects/SLAccessibility.svelte';
 	import ScoutsKit from '$lib/sections/projects/ScoutsKit.svelte';
 	import BlastTheoryGame from '$lib/sections/projects/BlastTheoryGame.svelte';
 	import VagMicrobiome from '$lib/sections/projects/VagMicrobiome.svelte';

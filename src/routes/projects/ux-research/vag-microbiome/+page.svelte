@@ -1,12 +1,9 @@
 <script>
 	import DetailProjectLayout from '$lib/sections/projects/DetailProjectPages/DetailProjectLayout.svelte';
-	import Wrapper from '$lib/components/Wrapper.svelte';
-	import Video from '$lib/components/Video.svelte';
 	import SubsectionHeader from '$lib/components/SubsectionHeader.svelte';
 	import ProjectSectionWrapper from '$lib/components/ProjectSectionWrapper.svelte';
 	import UnorderedList from '$lib/components/shapes/UnorderedList.svelte';
 	import Image from 'svimg/Image.svelte';
-	import OrderedList from '$lib/components/OrderedList.svelte';
 
 	const pdfUrl =
 		'https://pub-722d106e492140b5b7d5005a21545d37.r2.dev/Pictorial%20Katrin%20St%C3%B6tter.pdf';
