@@ -1,9 +1,9 @@
 <script lang="ts">
 	import Wrapper from '$lib/components/Wrapper.svelte';
 	import SectionHeader from '$lib/components/SectionHeader.svelte';
-	import ScoutsKit from '$lib/sections/projects/ScoutsKit.svelte';
 	import BlastTheoryGame from '$lib/sections/projects/BlastTheoryGame.svelte';
 	import VagMicrobiome from '$lib/sections/projects/VagMicrobiome.svelte';
+	import ScaleIndustrialDesign from '$lib/sections/projects/ScaleIndustrialDesign.svelte';
 </script>
 
 <section class="pt-12">
@@ -26,6 +26,6 @@
 		>
 	</Wrapper>
 	<BlastTheoryGame />
+	<ScaleIndustrialDesign />
 	<VagMicrobiome />
-	<ScoutsKit />
 </section>
