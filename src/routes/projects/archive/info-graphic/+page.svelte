@@ -96,7 +96,6 @@
 
 	<ProjectSectionWrapper>
 		<SubsectionHeader>The final handbook for this Project:</SubsectionHeader>
-		<!--TODO: Include correct file somehow -->
 		<div class="mt-8 flex items-center justify-center">
 			<iframe
 				src={pdfUrl}
