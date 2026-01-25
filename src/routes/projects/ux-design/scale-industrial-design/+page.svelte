@@ -50,21 +50,21 @@
 			unnecessary complexity. These insights helped frame the design challenge around combining
 			functionality, child-friendliness, and a fun and creative form.
 		</p>
-		<div class="mt-8 flex gap-2">
+		<div class="mt-8 flex flex-col gap-2 lg:flex-row">
 			<Image
 				src="/imgs/Projects/ScaleIndustrialDesign/Kitchen_Scales_Persona.png"
 				alt="Persona 1, a young woman, student, fun personality in Stockholm."
-				class="w-1/3 rounded-md"
+				class="w-full rounded-md lg:w-1/3"
 			></Image>
 			<Image
 				src="/imgs/Projects/ScaleIndustrialDesign/Kitchen_Scales_1_Persona.png"
 				alt="Persona 2, 61 year old dad, practical, efficient, German."
-				class="w-1/3 rounded-md"
+				class="w-full rounded-md lg:w-1/3"
 			></Image>
 			<Image
 				src="/imgs/Projects/ScaleIndustrialDesign/Kitchen_Scales_2_Persona.png"
 				alt="Persona 3, 30 years old, professional chef that hosts cooking lessons for kids, practical and fun, Gothenburg."
-				class="w-1/3 rounded-md"
+				class="w-full rounded-md lg:w-1/3"
 			></Image>
 		</div>
 	</ProjectSectionWrapper>
@@ -103,16 +103,17 @@
 			concept aligned with Alessi’s visual language, including minimalist layout, material
 			transparency, and playful graphic details.
 		</p>
-		<div class="mt-8 flex gap-2">
+		<div class="mt-8 flex flex-col gap-2 lg:flex-row">
 			<Image
 				src="/imgs/Projects/ScaleIndustrialDesign/technical_drawing.png"
 				alt="Technical Drawing."
-				class="w-1/2 rounded-md"
+				class="w-full rounded-md lg:w-1/2"
 			></Image>
+
 			<Image
 				src="/imgs/Projects/ScaleIndustrialDesign/Renders_and_final_design.png"
 				alt="Renders of the final design and image of the final prototype."
-				class="w-1/2 rounded-md"
+				class="w-full rounded-md lg:w-1/2"
 			></Image>
 		</div>
 	</ProjectSectionWrapper>
@@ -121,15 +122,34 @@
 		<SubsectionHeader
 			>Presentations throughout the course presenting the progress:
 		</SubsectionHeader>
-		<div class="mt-8 flex items-center justify-center">
-			<iframe src={pdfUrl2} width="500" height="500" title="Presentation Double Diamon Part 2" />
-			<iframe src={pdfUrl3} width="500" height="500" title="Final Presentation" />
-			<iframe src={pdfUrl} width="500" height="500" title="Presentation Double Diamond Step 1" />
+		<div class="mt-8 flex flex-col items-center justify-center gap-6 lg:flex-row">
+			<div class="flex w-full justify-center">
+				<iframe
+					src={pdfUrl2}
+					class="w-full max-w-[500px]"
+					height="500"
+					title="Presentation Double Diamond Part 2"
+				></iframe>
+			</div>
+
+			<div class="flex w-full justify-center">
+				<iframe src={pdfUrl3} class="w-full max-w-[500px]" height="500" title="Final Presentation"
+				></iframe>
+			</div>
+
+			<div class="flex w-full justify-center">
+				<iframe
+					src={pdfUrl}
+					class="w-full max-w-[500px]"
+					height="500"
+					title="Presentation Double Diamond Step 1"
+				></iframe>
+			</div>
 		</div>
 	</ProjectSectionWrapper>
 	<ProjectSectionWrapper>
 		<SubsectionHeader>Some of the Sketches done during the Sketching exercises</SubsectionHeader>
-		<div class="mt-8 grid grid-cols-2 gap-4">
+		<div class="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-2">
 			<!-- Left: big image -->
 			<Image
 				src="/imgs/Projects/ScaleIndustrialDesign/catlamp_sketch.png"
