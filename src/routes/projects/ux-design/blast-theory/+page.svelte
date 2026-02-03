@@ -92,10 +92,7 @@
 	<ProjectSectionWrapper>
 		<SubsectionHeader>TRUCOLD game demo</SubsectionHeader>
 		<div class="flex items-center justify-center py-8">
-			<Video
-				src="https://youtu.be/FWFmrzh_d9o
-"
-			/>
+			<Video src="https://www.youtube.com/watch?v=FWFmrzh_d9o" />
 		</div>
 	</ProjectSectionWrapper>
 	<!-- Add an Audio component to display the project audio -->
