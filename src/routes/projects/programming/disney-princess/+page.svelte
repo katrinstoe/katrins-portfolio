@@ -71,7 +71,14 @@
 			women and girls. The platform includes a personality quiz, educational content, and simple
 			investment tools as well as a Forum functionality all meant to support a low barrier of
 			entrance and a supportive environment of learning. The platform was developed using React,
-			Redux, and MUI, with data persistence via Firestore and external API integrations.
+			Redux, and MUI, with data persistence via Firestore and external API integrations. The website
+			can be accessed
+			<a
+				href="https://once-upon-a-budget.web.app/"
+				aria-label="External Link to Once Upon A Budget Website"
+				class="text-blue-300"
+				target="_blank">here</a
+			>.
 		</p>
 	</ProjectSectionWrapper>
 
